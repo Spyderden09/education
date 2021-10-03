@@ -1,0 +1,1 @@
+<?php include './skins/default/staticpage/main.tpl';

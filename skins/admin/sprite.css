@@ -1,0 +1,141 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-a_1 {
+  background-image: url(sprite.png);
+  background-position: -40px -42px;
+  width: 26px;
+  height: 23px;
+  float: left;
+}
+.icon-a_2 {
+  background-image: url(sprite.png);
+  background-position: -66px -42px;
+  width: 27px;
+  height: 22px;
+  float: left;
+}
+.icon-a_3 {
+  background-image: url(sprite.png);
+  background-position: -93px -42px;
+  width: 26px;
+  height: 22px;
+  float: left;
+}
+.icon-a_4 {
+  background-image: url(sprite.png);
+  background-position: -77px -69px;
+  width: 21px;
+  height: 18px;
+  float: left;
+}
+.icon-all_star_for_tesm {
+  background-image: url(sprite.png);
+  background-position: 0px -89px;
+  width: 21px;
+  height: 20px;
+  float: left;
+}
+.icon-all_star_for_tesm2 {
+  background-image: url(sprite.png);
+  background-position: 0px -89px;
+  width: 21px;
+  height: 20px;
+  float: left;
+  margin-left: 570px;
+}
+.icon-blogs_mini-icon_1 {
+  background-image: url(sprite.png);
+  background-position: -98px -69px;
+  width: 20px;
+  height: 17px;
+  float:left
+}
+.icon-blogs_mini_icon_2 {
+  background-image: url(sprite.png);
+  background-position: -21px -89px;
+  width: 20px;
+  height: 17px;
+  float:left;
+}
+.icon-event_mini_icon_1 {
+  background-image: url(sprite.png);
+  background-position: -79px -89px;
+  width: 15px;
+  height: 15px;
+}
+.icon-event_mini_icon_2 {
+  background-image: url(sprite.png);
+  background-position: -94px -89px;
+  width: 11px;
+  height: 13px;
+}
+.icon-half_star_for_tesm {
+  background-image: url(sprite.png);
+  background-position: -61px -89px;
+  width: 18px;
+  height: 16px;
+  float:left;
+}
+.icon-icon1 {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 60px;
+  height: 42px;
+}
+.icon-icon2 {
+  background-image: url(sprite.png);
+  background-position: -60px 0px;
+  width: 60px;
+  height: 38px;
+}
+.icon-icon3 {
+  background-image: url(sprite.png);
+  background-position: 0px -42px;
+  width: 40px;
+  height: 27px;
+  float:left;
+}
+.icon-ifno_mini2 {
+  background-image: url(sprite.png);
+  background-position: -54px -69px;
+  width: 23px;
+  height: 18px;
+  float: left;
+}
+.icon-info_mini1 {
+  background-image: url(sprite.png);
+  background-position: -27px -69px;
+  width: 27px;
+  height: 18px;
+  float: left;
+}
+.icon-info_mini3 {
+  background-image: url(sprite.png);
+  background-position: 0px -69px;
+  width: 27px;
+  height: 20px;
+  float: left;
+}
+.icon-news_mini_icon-1 {
+  background-image: url(sprite.png);
+  background-position: -41px -89px;
+  width: 20px;
+  height: 17px;
+  float:left;
+}

@@ -1,0 +1,9 @@
+<?php
+define('CREATED',2020);
+define('SKIN','default');
+
+
+define('DB_LOCAL','127.0.0.1');
+define('DB_LOGIN','root');
+define('DB_PASS','root');
+define('DB_NAME','user');

@@ -1,0 +1,1103 @@
+QUERY: SELECTT;  On line 2; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\static\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTT' at line 1
+
+QUERY: SELECTT;  On line 2; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\static\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTT' at line 1
+
+QUERY: SELECTT;  On line 2; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\static\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTT' at line 1
+
+QUERY: SELECTT;  On line 2;  When: Sat, 19 Dec 2020 22:26:48 +0300; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\static\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTT' at line 1
+
+QUERY: SELECTT;  On line 2;  When: Saturday 19th 2020f December 2020 10:28:10 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\static\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTT' at line 1
+
+QUERY: ;  On line ;  When: Sunday 20th 2020f December 2020 10:15:20 AM; In function mresALL; In file:;
+
+
+QUERY: ;  On line ;  When: Sunday 20th 2020f December 2020 10:17:00 AM; In function mresALL; In file:;
+
+
+QUERY: 
+    INSERT INTO `users` SET 
+    `age`   = '12',
+    `log` = '123',
+    `pass`  = '`1212312',
+    `email` = 'spyderden09@gmail.com'
+        ;  On line 23;  When: Thursday 24th 2020f December 2020 11:22:32 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\log\main.php;
+Unknown column 'log' in 'field list'
+
+QUERY: 
+    INSERT INTO `users` SET 
+    `age`   = '12',
+    `log` = '123',
+    `pass`  = '`1212312',
+    `email` = 'spyderden09@gmail.com'
+        ;  On line 23;  When: Thursday 24th 2020f December 2020 11:23:12 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\log\main.php;
+Unknown column 'log' in 'field list'
+
+QUERY: 
+    INSERT INTO `users` SET 
+    `age`   = '12',
+    `login` = 'Human',
+    `pass`  = '44sp9MsUiS3wg',
+    `email` = '123@GMAIL.COM',
+    `hash` = '44738tLm9Y1uc'
+        ;  On line 11;  When: Friday 25th 2020f December 2020 09:49:58 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\log\main.php;
+Unknown column 'hash' in 'field list'
+
+QUERY: 
+    UPDATE ...
+    ;  On line 3;  When: Saturday 26th 2020f December 2020 12:13:16 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\log\activate.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '...' at line 1
+
+QUERY: 
+    UPDATE ...
+    ;  On line 3;  When: Saturday 26th 2020f December 2020 12:35:21 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\log\activate.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '...' at line 1
+
+QUERY: 
+                SELECT `id`
+                FROM `users`
+                WHERE `login` = '123'
+                LIMIT 1
+        ;  On line 16;  When: Saturday 26th 2020f December 2020 09:50:27 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\log\main.php;
+Unknown column 'id' in 'field list'
+
+QUERY: 
+                SELECT `id`
+                FROM `users`
+                WHERE `login` = '123'
+                LIMIT 1
+        ;  On line 23;  When: Saturday 26th 2020f December 2020 09:50:56 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\log\main.php;
+Unknown column 'id' in 'field list'
+
+QUERY: 
+                SELECT `id`
+                FROM `users`
+                WHERE `login` = '123'
+                LIMIT 1
+        ;  On line 26;  When: Sunday 27th 2020f December 2020 10:46:57 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\log\main.php;
+Unknown column 'id' in 'field list'
+
+QUERY: 
+    INSERT INTO `users` SET 
+    `age`   = '12',
+    `login` = '231232321312312312321312312312321321312231232321312312312321312312312321321312231232321312312312321312312312321321312231232321312312312321312312312321321312231232321312312312321312312312321321312231232321312312312321312312312321321312231232321312312312321312312312321321312',
+    `pass`  = '44hIrhtlR6UX6',
+    `email` = 'spyderden09@gmail.com',
+    `hash` = '44iZxV1zfjcDE'
+        ;  On line 34;  When: Sunday 27th 2020f December 2020 06:02:12 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+Data too long for column 'login' at row 1
+
+QUERY: 
+    SELECT * FROM `users` SET 
+    `age`   = '111',
+    `login` = 'test123',
+    `pass`  = '44Iy9rLXAygyI',
+    `email` = 'test123@gmail.com',
+    `hash` = '44KazUZw3mQpc'
+        ;  On line 56;  When: Friday 08th 2021f January 2021 06:26:15 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET 
+    `age`   = '111',
+    `login` = 'test123',
+    `pass`  = '44Iy9rLXAyg' at line 1
+
+QUERY: 
+    SELECT * FROM `users` WHERE
+    `age`   = '111',
+    `login` = '123456789',
+    `pass`  = '443kiWyRHdxDY',
+    `email` = '123456789@gmail.com',
+    `hash` = '44JtSeF3eGK3Y'
+        ;  On line 56;  When: Friday 08th 2021f January 2021 06:27:25 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+    `login` = '123456789',
+    `pass`  = '443kiWyRHdxDY',
+    `email` = '12' at line 2
+
+QUERY: 
+    UPDATE `users` SET
+    `browse` = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' 
+    WHERE `hash` = ''
+    ;  On line 33;  When: Friday 15th 2021f January 2021 08:38:38 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\auth.php;
+Unknown column 'browse' in 'field list'
+
+QUERY: 
+    UPDATE `users` SET
+    `browse` = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' 
+    WHERE `hash` = '44Kt097uDZS8.'
+    ;  On line 33;  When: Friday 15th 2021f January 2021 08:39:13 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\auth.php;
+Unknown column 'browse' in 'field list'
+
+QUERY: 
+    UPDATE `users` SET
+    `browse` = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' 
+    WHERE `hash` = '44Kt097uDZS8.'
+    ;  On line 33;  When: Friday 15th 2021f January 2021 08:45:58 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\auth.php;
+Unknown column 'browse' in 'field list'
+
+QUERY: 
+    UPDATE `users` SET
+    `browse` = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36' 
+    WHERE `hash` = '44Kt097uDZS8.'
+    ;  On line 33;  When: Friday 15th 2021f January 2021 08:46:34 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\auth.php;
+Data too long for column 'browse' at row 16
+
+QUERY: 
+    INSERT INTO `users` SET 
+    `age`   = '12',
+    `login` = 'Man',
+    `pass`  = '44sp9MsUiS3wg',
+    `email` = 'man@gmail.com',
+    `hash` = '44A.5dwdPfGkU'
+        ;  On line 45;  When: Saturday 16th 2021f January 2021 09:16:35 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+Field 'ip' doesn't have a default value
+
+QUERY: 
+    INSERT INTO `users` SET 
+    `age`   = '12',
+    `login` = 'Man',
+    `pass`  = '44sp9MsUiS3wg',
+    `email` = 'man@gmail.com',
+    `hash` = '44A.5dwdPfGkU'
+        ;  On line 45;  When: Saturday 16th 2021f January 2021 09:17:02 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+Field 'ip' doesn't have a default value
+
+QUERY: 
+    INSERT INTO `users` SET 
+    `age`   = '12',
+    `login` = 'Man',
+    `pass`  = '44sp9MsUiS3wg',
+    `email` = 'man@gmail.com',
+    `hash` = '44A.5dwdPfGkU'
+        ;  On line 45;  When: Saturday 16th 2021f January 2021 09:28:56 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+Field 'ip' doesn't have a default value
+
+QUERY: 
+    SELECT * FROM `users` WHERE
+    `age`       = '12',
+    `login`     = 'Man',
+    `pass`      = '44sp9MsUiS3wg',
+    `email`     = 'man@gmail.com',
+    `browse`    = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+    `ip`        = '127.0.0.1',
+    `hash`      = '44A.5dwdPfGkU'
+        ;  On line 61;  When: Saturday 16th 2021f January 2021 09:29:34 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+    `login`     = 'Man',
+    `pass`      = '44sp9MsUiS3wg',
+    `email`    ' at line 2
+
+QUERY: 
+    SELECT * FROM `users` WHERE
+    `age`       = '12',
+    `login`     = 'ggg',
+    `pass`      = '44bbwQVgODJJE',
+    `email`     = 'ggg@gmail.com',
+    `browse`    = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+    `ip`        = '127.0.0.1',
+    `hash`      = '44hH/SWH8sBmE'
+        ;  On line 61;  When: Saturday 16th 2021f January 2021 09:31:38 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+    `login`     = 'ggg',
+    `pass`      = '44bbwQVgODJJE',
+    `email`    ' at line 2
+
+QUERY: 
+    SELECT * FROM `users` WHERE
+    `age`       = '12',
+    `login`     = 'qqq',
+    `pass`      = '44bbwQVgODJJE',
+    `email`     = 'qqq@gmail.com',
+    `hash`      = '44m6734cXECyc'
+        ;  On line 59;  When: Saturday 16th 2021f January 2021 09:33:42 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+    `login`     = 'qqq',
+    `pass`      = '44bbwQVgODJJE',
+    `email`    ' at line 2
+
+QUERY: 
+    SELECT * FROM `users` WHERE
+    `age`       = '12',
+    `login`     = 'aaa',
+    `pass`      = '44bbwQVgODJJE',
+    `email`     = 'aaa@gmail.com',
+    `hash`      = '44bxQO3vkFikQ'
+        ;  On line 59;  When: Saturday 16th 2021f January 2021 09:34:32 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+    `login`     = 'aaa',
+    `pass`      = '44bbwQVgODJJE',
+    `email`    ' at line 2
+
+QUERY: 
+    SELECT * FROM `users` WHERE
+    `age`       = '12',
+    `login`     = 'fff',
+    `pass`      = '44bbwQVgODJJE',
+    `email`     = 'fff@gmail.com'
+        ;  On line 58;  When: Saturday 16th 2021f January 2021 09:34:57 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+    `login`     = 'fff',
+    `pass`      = '44bbwQVgODJJE',
+    `email`    ' at line 2
+
+QUERY: 
+    INSERT INTO `users`
+    `age`   = '12',
+    `login` = 'rrr',
+    `pass`  = '44bbwQVgODJJE',
+    `email` = 'rrr@gmail.com',
+    `browse`    = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+    `ip`        = '127.0.0.1',
+    `hash` = '44zZAL5rHrrus'
+        ;  On line 47;  When: Saturday 16th 2021f January 2021 09:36:16 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`age`   = '12',
+    `login` = 'rrr',
+    `pass`  = '44bbwQVgODJJE',
+    `emai' at line 2
+
+QUERY: 
+    SELECT * FROM `users` WHERE
+    `age`       = '12',
+    `login`     = 'rrr',
+    `pass`      = '44bbwQVgODJJE',
+    `email`     = 'rrr@gmail.com',
+    `browse`    = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+    `ip`        = '127.0.0.1',
+    `hash`      = '44zZAL5rHrrus'
+        ;  On line 61;  When: Saturday 16th 2021f January 2021 09:38:17 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+    `login`     = 'rrr',
+    `pass`      = '44bbwQVgODJJE',
+    `email`    ' at line 2
+
+QUERY: 
+    SELECT * FROM `users` WHERE
+    `age`       = '12',
+    `login`     = 'ttt',
+    `pass`      = '44bbwQVgODJJE',
+    `email`     = 'ttt@gmail.com',
+    `browse`    = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+    `ip`        = '127.0.0.1',
+    `hash`      = '44amVP9k9yvhA'
+        ;  On line 61;  When: Saturday 16th 2021f January 2021 09:42:30 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+    `login`     = 'ttt',
+    `pass`      = '44bbwQVgODJJE',
+    `email`    ' at line 2
+
+QUERY: 
+    SELECT * FROM `users` WHERE
+    `age`       = '12',
+    `login`     = 'kkk',
+    `pass`      = '445HnOZ2Brktc',
+    `email`     = 'kkk@gmail.com',
+    `hash`      = '44AUGAvqvG0ok'
+        ;  On line 59;  When: Saturday 16th 2021f January 2021 09:47:08 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+    `login`     = 'kkk',
+    `pass`      = '445HnOZ2Brktc',
+    `email`    ' at line 2
+
+QUERY: 
+    SELECT * FROM `users` WHERE
+    `age`       = '12',
+    `login`     = 'fff',
+    `pass`      = '444Sb.3FDecBc',
+    `email`     = 'fff@gmail.com',
+    `hash`      = '44nmtdJJjOiNc'
+        ;  On line 59;  When: Saturday 16th 2021f January 2021 10:18:36 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+    `login`     = 'fff',
+    `pass`      = '444Sb.3FDecBc',
+    `email`    ' at line 2
+
+QUERY: 
+    SELECT * FROM `users` WHERE
+    `age`       = '12',
+    `login`     = '222',
+    `pass`      = '44bbwQVgODJJE',
+    `email`     = '222@gmail.com',
+    `hash`      = '44.7tcQZ6/0qs'
+        ;  On line 59;  When: Saturday 16th 2021f January 2021 10:23:21 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+    `login`     = '222',
+    `pass`      = '44bbwQVgODJJE',
+    `email`    ' at line 2
+
+QUERY: 
+    SELECT * FROM `users` WHERE
+    `age`       = 12,
+    `login`     = 'hhh',
+    `pass`      = '44bbwQVgODJJE',
+    `email`     = 'hhh@gmail.com',
+    `hash`      = '442vHbOxsqCng'
+        ;  On line 59;  When: Saturday 16th 2021f January 2021 11:34:23 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+    `login`     = 'hhh',
+    `pass`      = '44bbwQVgODJJE',
+    `email`    ' at line 2
+
+QUERY: 
+    SELECT * FROM `users` WHERE
+    `age`       = 12,
+    `login`     = 'rrr',
+    `pass`      = '44bbwQVgODJJE',
+    `email`     = 'rrr@gmail.com'
+        ;  On line 58;  When: Saturday 16th 2021f January 2021 11:38:15 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+    `login`     = 'rrr',
+    `pass`      = '44bbwQVgODJJE',
+    `email`    ' at line 2
+
+QUERY: 
+    SELECT * FROM `users` WHERE
+    `age`       = 12,
+    `login`     = 'uuu',
+    `pass`      = '44bbwQVgODJJE'
+        ;  On line 57;  When: Saturday 16th 2021f January 2021 11:38:49 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+    `login`     = 'uuu',
+    `pass`      = '44bbwQVgODJJE'' at line 2
+
+QUERY: 
+    SELECT * FROM `users` WHERE
+    `age`       = 12,
+    `login`     = 'ttt',
+    `pass`      = '44bbwQVgODJJE',
+    `email`     = 'ttt@GMAIL.COM',
+    `hash`      = '44amVP9k9yvhA'
+        ;  On line 59;  When: Saturday 16th 2021f January 2021 11:45:17 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\login\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+    `login`     = 'ttt',
+    `pass`      = '44bbwQVgODJJE',
+    `email`    ' at line 2
+
+QUERY: 
+        SELECT *
+        FROM `users`
+        WHERE `login` LIKE '%%';
+        AND `active` = 1
+    ;  On line 7;  When: Monday 03rd 2021f May 2021 09:48:01 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\search\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `active` = 1' at line 4
+
+QUERY: 
+                UPDATE `users` SET
+                `pass` = '' 
+                `email` = 'rurururt@gmail.com' 
+                `login` = 'Rurururt'  
+                `access` = '5'  
+                WHERE `hash` = '44d4syuvC1hDs'
+                AND `id` = '80'
+                AND `active` = 1
+            ;  On line 11;  When: Sunday 09th 2021f May 2021 01:02:02 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`email` = 'rurururt@gmail.com' 
+                `login` = 'Rurururt'  
+       ' at line 3
+
+QUERY: 
+                UPDATE `users` SET
+                `pass` = '' 
+                `email` = 'rurururt@gmail.com' 
+                `login` = 'Rurururt'  
+                `access` = '5'  
+                WHERE `hash` = '44d4syuvC1hDs'
+                AND `id` = '80'
+                AND `active` = 1
+            ;  On line 11;  When: Sunday 09th 2021f May 2021 01:02:14 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`email` = 'rurururt@gmail.com' 
+                `login` = 'Rurururt'  
+       ' at line 3
+
+QUERY: 
+                UPDATE `users` SET
+                `pass` = '' 
+                `email` = 'rurururt@gmail.com' 
+                `login` = 'Rurururt'  
+                `access` = '5'  
+                WHERE AND `id` = '80'
+                AND `active` = 1
+            ;  On line 10;  When: Sunday 09th 2021f May 2021 01:03:21 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`email` = 'rurururt@gmail.com' 
+                `login` = 'Rurururt'  
+       ' at line 3
+
+QUERY: 
+                UPDATE `users` SET
+                `pass` = '' 
+
+                `access` = '5'  
+                WHERE AND `id` = '80'
+                AND `active` = 1
+            ;  On line 9;  When: Sunday 09th 2021f May 2021 01:09:46 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`access` = '5'  
+                WHERE AND `id` = '80'
+                AND `ac' at line 4
+
+QUERY: 
+                UPDATE `users` SET
+                `pass` = '' 
+                `email` = 'rurururt@gmail.com' 
+                `login` = 'Rurururt'  
+                `access` = '5'  
+                WHERE `id` = '80'
+                AND `active` = 1
+            ;  On line 10;  When: Sunday 09th 2021f May 2021 01:10:10 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`email` = 'rurururt@gmail.com' 
+                `login` = 'Rurururt'  
+       ' at line 3
+
+QUERY: 
+                UPDATE `users` SET
+                `pass` = '' 
+                `email` = 'rurururt@gmail.com' 
+
+                WHERE `id` = '80'
+                AND `active` = 1
+            ;  On line 9;  When: Sunday 09th 2021f May 2021 01:11:15 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`email` = 'rurururt@gmail.com' 
+
+                WHERE `id` = '80'
+          ' at line 3
+
+QUERY: 
+                SELECT * FROM 'users'
+                WHERE `email` = 'rurururt@gmail.com'
+            ;  On line 6;  When: Sunday 09th 2021f May 2021 05:34:42 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'
+                WHERE `email` = 'rurururt@gmail.com'' at line 1
+
+QUERY: 
+                SELECT * FROM 'users'
+                WHERE `login` = 'Rurururt'
+            ;  On line 11;  When: Sunday 09th 2021f May 2021 05:35:55 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'
+                WHERE `login` = 'Rurururt'' at line 1
+
+QUERY: 
+                SELECT * FROM 'users'
+                WHERE `login` = 'Rurururt'
+            ;  On line 12;  When: Sunday 09th 2021f May 2021 05:39:48 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'
+                WHERE `login` = 'Rurururt'' at line 1
+
+QUERY: 
+                SELECT * FROM 'users'
+                WHERE `login` = 'Rurururt'
+            ;  On line 11;  When: Sunday 09th 2021f May 2021 05:40:04 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'
+                WHERE `login` = 'Rurururt'' at line 1
+
+QUERY: 
+                SELECT * 
+                FROM 'users'
+                WHERE `login` = 'Rurururt'
+            ;  On line 12;  When: Sunday 09th 2021f May 2021 05:40:19 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'
+                WHERE `login` = 'Rurururt'' at line 2
+
+QUERY: 
+                SELECT * 
+                FROM 'users'
+                WHERE `login` = 'Rurururt'
+            ;  On line 12;  When: Sunday 09th 2021f May 2021 05:40:25 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'
+                WHERE `login` = 'Rurururt'' at line 2
+
+QUERY: 
+                SELECT * 
+                FROM 'users'
+                WHERE `login` = 'Rurururt'
+            ;  On line 12;  When: Sunday 09th 2021f May 2021 05:40:27 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'
+                WHERE `login` = 'Rurururt'' at line 2
+
+QUERY: 
+                SELECT * 
+                FROM 'users'
+                WHERE `login` = 'Rurururt'
+            ;  On line 12;  When: Sunday 09th 2021f May 2021 05:40:29 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'
+                WHERE `login` = 'Rurururt'' at line 2
+
+QUERY: 
+                SELECT * 
+                FROM 'users'
+                WHERE `login` = 'Rurururt'
+            ;  On line 12;  When: Sunday 09th 2021f May 2021 05:40:31 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'
+                WHERE `login` = 'Rurururt'' at line 2
+
+QUERY: 
+                SELECT * 
+                FROM 'users'
+                WHERE `login` = 'Rurururt'
+            ;  On line 12;  When: Sunday 09th 2021f May 2021 05:40:36 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'
+                WHERE `login` = 'Rurururt'' at line 2
+
+QUERY: 
+            DELETE FROM `users`
+            WHERE `id` IN()
+        ;  On line 13;  When: Sunday 16th 2021f May 2021 01:43:05 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+QUERY: 
+            DELETE FROM `users`
+            WHERE `id` IN()
+        ;  On line 13;  When: Sunday 16th 2021f May 2021 01:43:38 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\managing\main.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+QUERY: 
+        INSERT INTO `catalog` SET 
+        `cat`   = 'Холодильники',
+        `price` = '134',
+        `text`  = '3131',
+        `title` = 'Холодильник'
+    ;  On line 13;  When: Sunday 20th 2021f June 2021 10:34:16 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\catalog\add.php;
+Field 'img' doesn't have a default value
+
+QUERY: 
+        INSERT INTO `catalog` SET 
+        `cat`   = 'Холодильники',
+        `price` = '134',
+        `text`  = '3131',
+        `title` = 'Холодильник'
+    ;  On line 13;  When: Sunday 20th 2021f June 2021 10:34:34 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\catalog\add.php;
+Field 'img' doesn't have a default value
+
+QUERY: 
+        INSERT INTO `catalog` SET 
+        `cat`   = 'Телефоны',
+        `price` = '21',
+        `text`  = '122112',
+        `title` = 'Nokia3311'
+    ;  On line 14;  When: Wednesday 07th 2021f July 2021 10:32:12 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\catalog\add.php;
+Field 'img' doesn't have a default value
+
+QUERY: 
+                UPDATE `catalog` SET
+                `img` = '/uploaded/catalog_400x400/20210708-060651img43886.jpg',
+                WHERE `id` = '53'
+            ;  On line 22;  When: Thursday 08th 2021f July 2021 06:06:51 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\catalog\edit.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = '53'' at line 3
+
+QUERY: 
+                UPDATE `catalog` SET 
+                `img` = '/uploaded/catalog_400x400/20210711-173604img16595.png'
+                WHERE `cat`   = 'Холодильники',
+                `price` = '123',
+                `text`  = '123',
+                `title` = 'Nokia3310'
+            ;  On line 28;  When: Sunday 11th 2021f July 2021 05:36:04 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\catalog\add.php;
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+                `price` = '123',
+                `text`  = '123',
+         ' at line 3
+
+QUERY: 
+        INSERT INTO `library` SET 
+        `nump` = '9',
+        `description`  = '',
+        `title` = 'Бебра',
+        'age' = '0',
+        `img` = ''
+    ; On line 34When: Saturday 21st 2021f August 2021 01:53:32 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''age' = '0',
+        `img` = ''' at line 5
+
+QUERY: 
+        INSERT INTO `library` SET 
+        `nump` = '9',
+        `description`  = '',
+        `title` = 'Бебра',
+        'age' = '0',
+        `img` = ''
+    ; On line 34When: Saturday 21st 2021f August 2021 01:54:28 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''age' = '0',
+        `img` = ''' at line 5
+
+QUERY: 
+        INSERT INTO `library` SET 
+        `nump` = '9',
+        `description`  = 'Нюхай Бебру',
+        `title` = 'Бебра',
+        `img` = ''
+    ; On line 33When: Saturday 21st 2021f August 2021 01:55:17 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+Unknown column 'title' in 'field list'
+
+QUERY: 
+        INSERT INTO `library` SET 
+        `nump` = '9',
+        `description`  = 'Нюхай Бебру',
+        `title` = 'Бебра',
+        `author` = '',
+        `img` = ''
+    ; On line 34When: Saturday 21st 2021f August 2021 02:32:53 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+Incorrect integer value: '' for column 'author' at row 1
+
+QUERY: 
+        INSERT INTO `library` SET 
+        `nump` = '9',
+        `description`  = 'Нюхай Бебру',
+        `title` = 'Бебра',
+        `author` = 'Bebramen',
+        `img` = ''
+    ; On line 34When: Saturday 21st 2021f August 2021 02:33:13 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+Incorrect integer value: 'Bebramen' for column 'author' at row 1
+
+QUERY: 
+        INSERT INTO `library` SET 
+        `nump` = '9',
+        `description`  = 'Нюхай Бебру',
+        `title` = 'Бебра',
+        `author` = 'Bebramen',
+        `img` = ''
+    ; On line 34When: Saturday 21st 2021f August 2021 02:33:54 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+Field 'content' doesn't have a default value
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+        `nump` = '',
+        `description`  = 'Нюхай Бебру',
+        `title` = 'Бебра'
+    ; On line 40When: Saturday 21st 2021f August 2021 02:34:15 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `description`  = 'Нюхай Бебру',
+        `title` = 'Беб�' at line 2
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+        `nump` = '',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra'
+    ; On line 40When: Saturday 21st 2021f August 2021 02:34:43 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra'' at line 2
+
+QUERY: 
+        INSERT INTO `library` SET 
+        `nump` = '9',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra',
+        `author` = 'Bebramen',
+        `img` = '',
+    ; On line 34When: Saturday 21st 2021f August 2021 02:35:16 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+        `nump` = '',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra',
+    ; On line 40When: Saturday 21st 2021f August 2021 05:20:48 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra',' at line 2
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+        `nump` = '',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra',
+    ; On line 40When: Saturday 21st 2021f August 2021 05:21:56 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra',' at line 2
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+        `nump` = '21',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra',
+    ; On line 40When: Saturday 21st 2021f August 2021 05:22:16 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra',' at line 2
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+        `nump` = '21',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra',
+    ; On line 40When: Saturday 21st 2021f August 2021 05:22:19 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra',' at line 2
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+        `nump` = '21',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra',
+    ; On line 40When: Saturday 21st 2021f August 2021 05:41:43 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra',' at line 2
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+        `nump` = '9',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra'
+    ; On line 40When: Saturday 21st 2021f August 2021 05:42:54 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra'' at line 2
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+        `nump` = '9',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra'
+    ; On line 40When: Saturday 21st 2021f August 2021 08:38:57 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `description`  = 'Nuhay Bebru',
+        `title` = 'Bebra'' at line 2
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+        `nump` = '213',
+        `description`  = '123',
+        `title` = 'Bebra',
+    ; On line 40When: Saturday 21st 2021f August 2021 08:52:26 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `description`  = '123',
+        `title` = 'Bebra',' at line 2
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+        `nump` = '213',
+        `description`  = '123',
+
+    ; On line 39When: Saturday 21st 2021f August 2021 08:52:40 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `description`  = '123',' at line 2
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+        `nump` = '213',
+        `description`  = '123',
+        `title` = 'Bebra',
+    ; On line 40When: Saturday 21st 2021f August 2021 08:53:20 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `description`  = '123',
+        `title` = 'Bebra',' at line 2
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+ 
+        `description`  = '123',
+        `title` = 'Bebra',
+    ; On line 40When: Saturday 21st 2021f August 2021 08:53:41 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `title` = 'Bebra',' at line 3
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+
+        `title` = 'Bebra',
+    ; On line 39When: Saturday 21st 2021f August 2021 08:53:57 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',' at line 3
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+        `nump` = '213',
+        `description`  = '123',
+        `title` = 'Bebra'
+    ; On line 40When: Saturday 21st 2021f August 2021 08:54:32 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `description`  = '123',
+        `title` = 'Bebra'' at line 2
+
+QUERY: 
+        SELECT * FROM `lirary` WHERE
+        `nump` = '213',
+        `description`  = '123',
+        `title` = 'Bebra'
+    ; On line 40When: Saturday 21st 2021f August 2021 09:45:33 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `description`  = '123',
+        `title` = 'Bebra'' at line 2
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+        `nump` = '213',
+        `description`  = '123',
+        `title` = 'Bebra'
+    ; On line 40When: Sunday 22nd 2021f August 2021 08:17:11 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `description`  = '123',
+        `title` = 'Bebra'' at line 2
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+        `nump` = '213',
+        `description`  = '123',
+        `title` = 'Bebra'
+    ; On line 40When: Sunday 22nd 2021f August 2021 08:29:30 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+        `description`  = '123',
+        `title` = 'Bebra'' at line 2
+
+QUERY: 
+        SELECT `id` FROM `lirary` WHERE
+        `nump` = '213' AND
+        `description`  = '123' AND
+        `title` = 'Bebra'
+    ; On line 40When: Sunday 22nd 2021f August 2021 08:31:10 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+Table 'user.lirary' doesn't exist
+
+QUERY: 
+        INSERT INTO `library_cat` SET 
+        `cat_id` = '1',
+        `book_id` = ''
+    ; On line 45When: Sunday 22nd 2021f August 2021 08:31:28 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+Incorrect integer value: '' for column 'book_id' at row 1
+
+QUERY: 
+        SELECT * FROM `library` WHERE
+        `nump` = '231' AND
+        `description`  = '12312' AND
+        `title` = 'Ккевк' AND
+        
+    ; On line 40When: Wednesday 25th 2021f August 2021 07:15:32 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4
+
+QUERY: 
+        UPDATE `library` SET
+        `nump` = '123',
+        `description`  = '213213',
+        `title` = 'ktrer',
+        `author` = '123213',
+        WHERE `id` = '28'
+    ; On line 50When: Thursday 26th 2021f August 2021 08:53:58 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\edit.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = '28'' at line 6
+
+QUERY: SELECT * FROM `library` WHERE `id` = IN (43); On line 11When: Wednesday 01st 2021f September 2021 04:15:43 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IN (43)' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` = IN (43, 43); On line 11When: Wednesday 01st 2021f September 2021 04:17:13 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IN (43, 43)' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (Array); On line 21When: Saturday 04th 2021f September 2021 11:23:57 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\main.php; 
+Unknown column 'Array' in 'where clause'
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (); On line 22When: Saturday 04th 2021f September 2021 11:24:24 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (); On line 23When: Saturday 04th 2021f September 2021 11:25:51 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (); On line 21When: Saturday 04th 2021f September 2021 11:26:40 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (); On line 22When: Saturday 04th 2021f September 2021 11:28:13 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (); On line 22When: Saturday 04th 2021f September 2021 11:28:32 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (); On line 21When: Saturday 04th 2021f September 2021 11:31:39 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (); On line 21When: Saturday 04th 2021f September 2021 02:07:42 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (); On line 23When: Saturday 04th 2021f September 2021 03:47:58 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` = '46' LIMIT -3,3; On line 24When: Sunday 05th 2021f September 2021 09:35:18 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-3,3' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (42,43,44,45,46) LIMIT -3,3; On line 29When: Sunday 05th 2021f September 2021 10:35:29 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-3,3' at line 1
+
+QUERY: 
+        INSERT INTO `catalog_cat` SET 
+        `cat`   = '0',
+    ; On line 6When: Saturday 11th 2021f September 2021 06:34:28 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\catalog\add_cat.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+
+QUERY: 
+        INSERT INTO `catalog_cat` SET 
+        `cat`   = '0',
+    ; On line 6When: Saturday 11th 2021f September 2021 06:35:33 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\catalog\add_cat.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+
+QUERY: 
+        INSERT INTO `catalog_cat` SET 
+        `cat`   = '0',
+    ; On line 6When: Saturday 11th 2021f September 2021 06:35:53 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\catalog\add_cat.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+
+QUERY: 
+        INSERT INTO `library_authors` SET 
+        `author` = '123',
+        `birth` = '',
+        `book_id` = '54'
+    ; On line 30When: Tuesday 28th 2021f September 2021 08:05:01 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+Incorrect integer value: '' for column 'birth' at row 1
+
+QUERY: 
+        INSERT INTO `library_authors` SET 
+        `author` = 'BookMan',
+        `birth` = '2000',
+        `book_id` = '56'
+    ; On line 30When: Tuesday 28th 2021f September 2021 08:06:23 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+Incorrect integer value: 'BookMan' for column 'author' at row 1
+
+QUERY: 
+        INSERT INTO `library` SET 
+        `nump` = '123',
+        `description`  = '123',
+        `title` = 'Book',
+        `img` = ''
+    ; On line 16When: Tuesday 28th 2021f September 2021 08:27:14 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+Field 'author' doesn't have a default value
+
+QUERY: 
+            SELECT * FROM `library_cat` WHERE `book_id` = '60' 
+            LIMIT 1
+    ; On line 36When: Tuesday 28th 2021f September 2021 10:50:24 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\edit.php; 
+Table 'user.library_cat' doesn't exist
+
+QUERY: 
+        INSERT INTO `library` SET 
+        `nump` = '123',
+        `description`  = '123',
+        `title` = 'Nokia3311',
+        `author` = '123',
+        `birth` = '123',
+        `img` = ''
+    ; On line 18When: Wednesday 29th 2021f September 2021 06:43:40 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+Unknown column 'author' in 'field list'
+
+QUERY: 
+        INSERT INTO `library` SET 
+        `nump` = '123',
+        `description`  = '112',
+        `title` = 'Book1',
+        `author` = 'BookMan',
+        `birth` = '123',
+        `img` = ''
+    ; On line 18When: Wednesday 29th 2021f September 2021 06:44:43 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+Unknown column 'author' in 'field list'
+
+QUERY: 
+        INSERT INTO `library` SET 
+        `nump` = '123 112',
+        `title` = 'Book1',
+        `img` = ''
+    ; On line 15When: Wednesday 29th 2021f September 2021 07:33:16 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+Data truncated for column 'nump' at row 1
+
+QUERY: 
+        INSERT INTO `library` SET 
+        `nump` = '123 213',
+        `title` = 'Бебра',
+        `img` = ''
+    ; On line 15When: Wednesday 29th 2021f September 2021 07:33:28 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+Data truncated for column 'nump' at row 1
+
+QUERY: 
+        INSERT INTO `library` SET 
+        `nump` = '123',
+        `title` = 'Bebra',
+        `img` = ''
+    ; On line 15When: Wednesday 29th 2021f September 2021 07:37:04 PM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+Field 'description' doesn't have a default value
+
+QUERY: SELECT * FROM `library` WHERE `id` IN () LIMIT 0,3; On line 72When: Thursday 30th 2021f September 2021 09:59:03 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0,3' at line 1
+
+QUERY: 
+        INSERT INTO `library_authors` SET 
+        `author`   = 'TEST',
+        `birth`   = '123',
+        `book_id`   = ''
+    ; On line 7When: Thursday 30th 2021f September 2021 10:50:46 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add_author.php; 
+Incorrect integer value: '' for column 'book_id' at row 1
+
+QUERY: 
+        INSERT INTO `library_authors` SET 
+        `author`   = 'TEST',
+        `birth`   = '123',
+        `book_id`   = ' '
+    ; On line 7When: Thursday 30th 2021f September 2021 10:51:01 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add_author.php; 
+Incorrect integer value: ' ' for column 'book_id' at row 1
+
+QUERY: 
+                UPDATE `library_authors` SET
+                `book_id` = '62',
+                WHERE 
+                `author` = '123',
+                `birth` = '2000',
+        ; On line 39When: Thursday 30th 2021f September 2021 10:52:42 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE 
+                `author` = '123',
+                `birth` = '2000',' at line 3
+
+QUERY: 
+                UPDATE `library_authors` SET
+                `book_id` = '62',
+                WHERE 
+                `author` = '123',
+                `birth` = '2000'
+        ; On line 39When: Thursday 30th 2021f September 2021 10:53:07 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE 
+                `author` = '123',
+                `birth` = '2000'' at line 3
+
+QUERY: 
+                UPDATE `library_authors` SET
+                `book_id` = '62',
+                WHERE 
+                `author` = '123',
+                `birth` = '2000'
+        ; On line 39When: Thursday 30th 2021f September 2021 10:53:10 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE 
+                `author` = '123',
+                `birth` = '2000'' at line 3
+
+QUERY: 
+                UPDATE `library_authors` SET
+                `book_id` = '62',
+                WHERE 
+                `author` = '123'AND
+                `birth` = '2000'
+        ; On line 39When: Thursday 30th 2021f September 2021 10:53:21 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE 
+                `author` = '123'AND
+                `birth` = '2000'' at line 3
+
+QUERY: 
+                UPDATE `library_authors` SET
+                `book_id` = '62',
+                WHERE 
+                `author` = '123'AND
+                `birth` = '2000'
+        ; On line 39When: Thursday 30th 2021f September 2021 10:53:24 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE 
+                `author` = '123'AND
+                `birth` = '2000'' at line 3
+
+QUERY: 
+        UPDATE `catalog_cat` SET
+        `author` = 'Grey',
+        `birth` = '1987'
+        WHERE `id` = '12'
+    ; On line 13When: Thursday 30th 2021f September 2021 11:45:59 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\edit_author.php; 
+Unknown column 'author' in 'field list'
+
+QUERY: 
+            INSERT INTO `library_authors` SET 
+            `author`  = 'BookManGo',
+            `birth`   = '',
+            `book_id` = '83'
+        ; On line 54When: Friday 01st 2021f October 2021 08:32:35 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
+Incorrect integer value: '' for column 'birth' at row 1
+
