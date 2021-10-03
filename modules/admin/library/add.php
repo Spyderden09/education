@@ -14,14 +14,14 @@ if(!empty($_POST['nump']) && !empty($_POST['id_author']) && !empty($_POST['descr
     }
     q("
         INSERT INTO `library` SET 
-        `nump` = '" . intALL($_POST['nump']) ."',
+        `nump` = '" . int($_POST['nump']) ."',
         `description`  = '" . mresALL($_POST['description']) ."',
         `title` = '" . mresALL($_POST['title']) ."',
         `img` = '". (isset($filename) ? $filename : '') ."'
     ");
     $book_id_arr = q("
         SELECT * FROM `library` WHERE
-        `nump` = '" . intALL($_POST['nump']) ."' AND
+        `nump` = '" . int($_POST['nump']) ."' AND
         `description`  = '" . mresALL($_POST['description']) ."' AND
         `title` = '" . mresALL($_POST['title']) ."' 
     ");
@@ -51,7 +51,7 @@ if(!empty($_POST['nump']) && !empty($_POST['id_author']) && !empty($_POST['descr
             INSERT INTO `library_authors` SET 
             `author`  = '". mresALL($authors_add["author"])."',
             `birth`   = '". mresALL($authors_add["birth"])."',
-            `book_id` = '". intALL($book_id) ."'
+            `book_id` = '". int($book_id) ."'
         ");
     }
 
