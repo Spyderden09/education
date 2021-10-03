@@ -2935,6 +2935,18 @@ a.li:hover{
     padding: 8px 17px;
 
 }
+.select-author-add-admin{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: #ff4f01;
+    color: #1b2640;
+    font-weight: bold;
+    border: 1px solid #ff4f01;
+    height: 50px;
+    width: 190px;
+    padding: 8px 17px;
+
+}
 .select-cat2{
     background-color: #ff4f01;
     color: #1b2640;

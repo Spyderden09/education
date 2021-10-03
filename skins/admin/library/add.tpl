@@ -12,11 +12,14 @@
             <br>
             <input class="add-input" type="number" min="0" max="1000000" name="nump" placeholder="Кол-во стр:">
             <br>
-            <select name="id_author" class="select-author-admin">
+            <p>Авторы:</p>
                 <?php foreach ($authors as $k=>$v) {?>
-                    <option class="option-cat" value="<?php echo hscALL($k)?>"><?php echo hscALL($v)?></option>
-                <?php }?>
-            </select>
+                    <p><input type="checkbox" name="id_author" value="<?php echo hscALL($k)?>"> <?php echo hscALL($v)?></p>
+                <?php
+                    if (isset($_POST["id_author"])){
+                        $authors_id[$k] = $_POST["id_author"];
+                    }
+                }?>
             <br>
             <textarea class="add-input" type="text" name="description" placeholder="Описание:"></textarea>
             <br>
