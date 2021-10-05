@@ -1,5 +1,4 @@
 <?php
-
 $authors_search = q("SELECT * FROM `library_authors`");
 
 foreach ($authors_search as $v){
