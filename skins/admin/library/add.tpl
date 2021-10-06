@@ -14,7 +14,7 @@
             <br>
             <p>Авторы:</p>
                 <?php foreach ($authors as $k=>$v) {?>
-                    <p><input type="checkbox" name="id_author" value="<?php echo hscALL($k)?>"> <?php echo hscALL($v)?></p>
+                    <p><input type="checkbox" name="id_author[]" value="<?php echo hscALL($k)?>"> <?php echo hscALL($v)?></p>
                 <?php }?>
             <br>
             <textarea class="add-input" type="text" name="description" placeholder="Описание:"></textarea>

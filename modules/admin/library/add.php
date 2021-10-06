@@ -1,6 +1,5 @@
 <?php
 $authors_search = q("SELECT * FROM `library_authors`");
-
 foreach ($authors_search as $v){
     $authors[$v["id"]] = $v["author"];
 }
@@ -25,9 +24,9 @@ if(!empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_
         `description`  = '" . mresALL($_POST['description']) ."' AND
         `title` = '" . mresALL($_POST['title']) ."' 
     ");
-    foreach ($authors_id as $k=>$v) {
-        $book_id_arr = $book_id_arr->fetch_assoc();
-        $book_id = $book_id_arr["id"];
+    $book_id_arr = $book_id_arr->fetch_assoc();
+    $book_id = $book_id_arr["id"];
+    foreach ($_POST["id_author"] as $k=>$v) {
         $authors_check = q("
             SELECT * FROM `library_authors` WHERE
             `id` = '" . mresALL($v) . "' AND 
