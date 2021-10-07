@@ -12,11 +12,15 @@
             <br>
             <input class="add-input" type="number" min="0" max="1000000" name="nump" placeholder="Кол-во стр:">
             <br>
+            <?php if($authors_search->num_rows){?>
             <p>Авторы:</p>
                 <?php foreach ($authors as $k=>$v) {?>
                     <p><input type="checkbox" name="id_author[]" value="<?php echo hscALL($k)?>"> <?php echo hscALL($v)?></p>
                 <?php }?>
             <br>
+            <?php }else{
+                echo "<p>На данный момент нету авторов. Создайте их</p>";
+            }?>
             <textarea class="add-input" type="text" name="description" placeholder="Описание:"></textarea>
             <br>
             <input type="file" name="file">

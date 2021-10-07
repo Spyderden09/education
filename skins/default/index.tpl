@@ -73,7 +73,11 @@
                                 }
                                 if (isset($_SESSION['user']) || isset($_COOKIE['aa'],$_COOKIE['pass'], $_COOKIE['login'])) {?>
                                     <a href="/comments" class="a_4">Comments</a>
-                                <?php }?>
+                                <?php }
+                                if (isset($_SESSION['user']) && ($_SESSION['user'] ['access'] == 1 || $_SESSION['user'] ['access'] == 2)){?>
+                                <a href="/library" class="a_4">Library</a>
+                                <?php
+                                }?>
                             </div>
                         </div>
                         <div class="search">

@@ -15,6 +15,52 @@ body{
     color:#EEEEEE;
     text-align:center;
 }
+.cat_button{
+    height: 32px;
+    width: 172px;
+    padding: 8px 17px;
+    float:left;
+    background-color: #ff4f01;
+    color: #1b2640;
+    font-weight: bold;
+    border: 1px solid #ff4f01;
+    margin-top: -10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.cat_button:hover{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+.main-text{
+    height: 32px;
+    width: 220px;
+    padding: 8px 17px;
+    float:left;
+    background-color: #1b2640;
+    color: #ff4f01;
+    font-weight: bold;
+    border: 1px solid #ff4f01;
+    margin-left: 10px;
+    margin-top: -10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+}
+.main-num{
+    height: 32px;
+    width: 200px;
+    padding: 8px 17px;
+    float:left;
+    background-color: #1b2640;
+    color: #ff4f01;
+    font-weight: bold;
+    border: 1px solid #ff4f01;
+    margin-left: 10px;
+    margin-top: -10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+}
 .a_block {
     height: 85px;
     width:100%;
