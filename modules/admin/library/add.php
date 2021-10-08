@@ -27,16 +27,16 @@ if(!empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_
     $book_id_arr = $book_id_arr->fetch_assoc();
     $book_id = $book_id_arr["id"];
     foreach ($_POST["id_author"] as $k=>$v) {
+
         $authors_check = q("
             SELECT * FROM `library_authors` WHERE
             `id` = '" . mresALL($v) . "' AND 
             `book_id` = '0'
         ");
         if ($authors_check->num_rows) {
-            $authors_check = $authors_check->fetch_assoc();
             q("
                 UPDATE `library_authors` SET
-                `book_id` = '" . mresALL($authors_check["book_id"]) . "'
+                `book_id` = '" . mresALL($book_id) . "'
                 WHERE
                 `id`  = '" . mresALL($v) . "'
             ");

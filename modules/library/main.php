@@ -23,7 +23,6 @@ if (isset($_POST['author']) || isset($_POST['birth']) || isset($_GET['author']) 
         }
         $res_arr = implode(",", $res_arr);
 
-
         if (!empty($res_arr)){
             $res_cat = q("SELECT * FROM `library` WHERE `id` IN (".$res_arr.")");
             if ($res_cat->num_rows > $limit){
