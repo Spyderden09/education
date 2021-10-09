@@ -1,5 +1,5 @@
 <?php
-$authors_search = q("SELECT * FROM `library_authors`");
+$authors_search = q("SELECT * FROM `library_authors` WHERE `book_id` = 0");
 
 foreach ($authors_search as $v){
     $authors[$v["id"]] = $v["author"];
@@ -38,23 +38,19 @@ if (isset($_GET['id']) && !empty($_POST['title']) && !empty($_POST['nump']) && !
         WHERE `id` = '" . $_GET['id'] . "'
     ");
 
-    $libr_cat_id_arr = q("
-            SELECT * FROM `library_authors` WHERE `book_id` = '". intALL($_GET["id"]) ."' 
-            LIMIT 1
-    ");
-    $libr_cat_id_arr = $libr_cat_id_arr->fetch_assoc();
-    $libr_cat_id = $libr_cat_id_arr["id"];
-    $libr_author_arr = q("
-            SELECT * FROM `library_authors` WHERE `book_id` = '". intALL($_POST["id_author"]) ."' 
-            LIMIT 1
-    ");
-    $libr_author_arr = $libr_author_arr->fetch_assoc();
-    q("
-        UPDATE `library_authors` SET
-        `author` = '". mresALL($libr_author_arr["author"])."',
-        `birth` = '". mresALL($libr_author_arr["birth"])."'
-        WHERE `book_id` = '". intALL($_GET["id"]) ."' AND `id` = '". intALL($libr_cat_id) ."'
-    ");
+    foreach ($_POST["id_author"] as $k=>$v) {
+        $authors_add = q("
+                SELECT * FROM `library_authors` WHERE
+                `id` = '" . mresALL($v) . "'
+            ");
+        $authors_add = $authors_add->fetch_assoc();
+        q("
+                UPDATE `library_authors` SET 
+                `author`  = '" . mresALL($authors_add["author"]) . "',
+                `birth`   = '" . mresALL($authors_add["birth"]) . "'
+                WHERE `book_id` = '" . (int)$_GET['id'] . "'
+            ");
+    }
     $_SESSION['info_l'] = 'Запись была изменена';
     header('Location: /admin/library');
     exit();
@@ -62,11 +58,9 @@ if (isset($_GET['id']) && !empty($_POST['title']) && !empty($_POST['nump']) && !
     $message_libr = "Заполните все поля";
 }
 $res_ed = q("SELECT * FROM `library` WHERE `id` = " . intALL($_GET['id']));
-$res_authors_ed = q("SELECT * FROM `library_authors` WHERE `book_id` = " . intALL($_GET['id']));
 if (!$res_ed->num_rows) {
     $_SESSION['info_l'] = 'Такой записи нету!';
     header('Location: /admin/library');
     exit();
 }
 $row = $res_ed->fetch_assoc();
-$row_authors = $res_authors_ed->fetch_assoc();

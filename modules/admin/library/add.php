@@ -1,5 +1,5 @@
 <?php
-$authors_search = q("SELECT * FROM `library_authors`");
+$authors_search = q("SELECT * FROM `library_authors` WHERE `book_id` = 0");
 foreach ($authors_search as $v){
     $authors[$v["id"]] = $v["author"];
 }
@@ -27,28 +27,11 @@ if(!empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_
     $book_id_arr = $book_id_arr->fetch_assoc();
     $book_id = $book_id_arr["id"];
     foreach ($_POST["id_author"] as $k=>$v) {
-
-        $authors_check = q("
-            SELECT * FROM `library_authors` WHERE
-            `id` = '" . mresALL($v) . "' AND 
-            `book_id` = '0'
-        ");
-        if ($authors_check->num_rows) {
-            q("
-                UPDATE `library_authors` SET
-                `book_id` = '" . mresALL($book_id) . "'
-                WHERE
-                `id`  = '" . mresALL($v) . "'
-            ");
-            $_SESSION['info_l'] = 'Книга была добавлена';
-            header('Location: /admin/library');
-        } else {
             $authors_add = q("
                 SELECT * FROM `library_authors` WHERE
                 `id` = '" . mresALL($v) . "'
             ");
             $authors_add = $authors_add->fetch_assoc();
-            print_r($authors_add);
             q("
                 INSERT INTO `library_authors` SET 
                 `author`  = '" . mresALL($authors_add["author"]) . "',
@@ -57,9 +40,7 @@ if(!empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_
             ");
             $_SESSION['info_l'] = 'Книга была добавлена';
             header('Location: /admin/library');
-        }
     }
-    exit;
 }elseif(isset($_POST["add"])){
     $message_libr = "Заполните все поля";
 }

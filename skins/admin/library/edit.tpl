@@ -7,16 +7,22 @@
         <form action="" method="post" enctype="multipart/form-data">
             <?php if(isset($message_libr)){echo $message_libr;}
             echo nl2br("\n") . nl2br("\n");?>
-            <select name="id_author" class="select-author-admin">
-                <?php foreach ($authors as $k=>$v) {?>
-                    <option class="option-cat" value="<?php echo hscALL($k)?>"><?php echo hscALL($v)?></option>
-                <?php }?>
-            </select>
             <br>
             <input class="add-input" type="text" name="title" value="<?php echo hscALL($row['title']);?>" placeholder="Название:">
             <br>
             <input class="add-input" type="number" min="0" max="1000000" name="nump" placeholder="Кол-во стр:" value="<?php echo hscALL($row['nump']);?>">
             <br>
+            <?php if($authors_search->num_rows){?>
+                <p>Авторы:</p>
+                <?php foreach ($authors as $k=>$v) {
+                    $res_authors_ed = q("SELECT * FROM `library_authors` WHERE `book_id` = " . intALL($_GET['id']) . " AND `author` = '". $v ."'");
+                    ?>
+                    <p><input type="checkbox" name="id_author[]" value="<?php echo hscALL($k)?>" <?php if ($res_authors_ed->num_rows){?> checked="checked"<?php }?>> <?php echo hscALL($v)?></p>
+                <?php }?>
+                <br>
+            <?php }else{
+                echo "<p>У этой книги нету автора. СРОЧНО создайте автора и присвойте его этой книге!</p>";
+            }?>
             <textarea class="add-input" type="text" name="description" placeholder="Описание:"><?php
                 if(empty($_POST['description'])){
                     echo hscALL($row['description']);
@@ -30,5 +36,5 @@
             <input class="add-sub" type="submit" name="edit" value="Изменить книгу">
             <br>
         </form>
-</div>
+    </div>
 </div>

@@ -38,6 +38,7 @@ if (isset($_POST['author']) || isset($_POST['birth']) || isset($_GET['author']) 
 
                 $res_cat = q("SELECT * FROM `library` WHERE `id` IN (".$res_arr.") LIMIT " . intALL($num_l_s) .",". intALL($limit));
 
+
             }
         }else{
             $res_cat = false;
