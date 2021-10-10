@@ -16,7 +16,8 @@ if (isset($_POST['author']) || isset($_POST['birth']) || isset($_GET['author']) 
     $res_cat_libr_q = q("SELECT * FROM `library_authors` WHERE `author` = '" . mresALL($author) . "' OR `birth` = '" . mresALL($birth) . "'");
     if ($res_cat_libr_q->num_rows){
         $res_nr = $res_cat_libr_q->num_rows;
-        for ($i = 1; $i <= $res_nr; $i++) {
+        $i = 1;
+        while ($i <= $res_nr) {
             $res_cat_libr = $res_cat_libr_q->fetch_assoc();
             $res_arr[$i] = $res_cat_libr["book_id"];
             $res_arr = array_unique($res_arr);
