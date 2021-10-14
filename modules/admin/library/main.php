@@ -13,17 +13,22 @@ if (isset($_POST['author']) || isset($_POST['birth']) || isset($_GET['author']) 
     }elseif (isset($_GET['birth'])){
         $birth = $_GET['birth'];
     }
-    $res_author_libr_q = q("SELECT * FROM `library_authors` WHERE `author` = '" . mresALL($author) . "' OR `birth` = '" . mresALL($birth) . "' GROUP BY IF (`book_id` != 0)");
+    $res_author_libr_q = q("SELECT * FROM `library_authors` WHERE `author` = '" . mresALL($author) . "' OR `birth` = '" . mresALL($birth) . "'");
     if ($res_author_libr_q->num_rows){
         $res_nr = $res_author_libr_q->num_rows;
-        while ($res_author_libr_q->fetch_assoc()) {
-            $res_author_libr = $res_author_libr_q->fetch_assoc();
-            $res_arr_author[] = $res_author_libr["book_id"];
-            $res_arr_author = array_unique($res_arr_author);
+        while ($res_author_libr_arr_q = $res_author_libr_q->fetch_assoc()) {
+            $res_author_libr = $res_author_libr_arr_q;
+            $res_arr_author[] = $res_author_libr["id"];
         }
-        print_r($res_arr_author);
-        $res_arr = implode(",", $res_arr_author);
-
+        $res_authors_arr = implode(",", $res_arr_author);
+        if (!empty($res_authors_arr)){
+            $res_book_q = q("SELECT * FROM `books_authors` WHERE `author_id` IN (".$res_authors_arr.")");
+            while ($res_books_arr_q = $res_book_q->fetch_assoc()) {
+                $res_books_arr = $res_books_arr_q;
+                $res_arr_books[] = $res_books_arr["book_id"];
+            }
+            $res_arr = implode(",", $res_arr_books);
+        }
 
         if (!empty($res_arr)){
             $res_cat = q("SELECT * FROM `library` WHERE `id` IN (".$res_arr.")");

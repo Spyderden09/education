@@ -1101,3 +1101,31 @@ QUERY:
         ; On line 54When: Friday 01st 2021f October 2021 08:32:35 AM; In function q; In file:D:\OpenServer\OpenServer\domains\test1.ru\modules\admin\library\add.php; 
 Incorrect integer value: '' for column 'birth' at row 1
 
+QUERY: SELECT * FROM `library_authors` WHERE `book_id` = 112AND `author` = 'BookManGo'; On line 18When: Saturday 09th 2021f October 2021 09:41:47 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\skins\admin\library\edit.tpl; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`author` = 'BookManGo'' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (113,); On line 28When: Sunday 10th 2021f October 2021 07:30:58 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (113,); On line 29When: Sunday 10th 2021f October 2021 07:31:38 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (113,); On line 29When: Sunday 10th 2021f October 2021 07:34:43 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (113,); On line 29When: Sunday 10th 2021f October 2021 07:34:50 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library_authors` WHERE `author` = '123' OR `birth` = '' GROUP BY IF (`book_id` != 0); On line 16When: Sunday 10th 2021f October 2021 07:39:15 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library_authors` WHERE `author` = '123' OR `birth` = '' 
+    GROUP BY IF (`book_id` != 0); On line 16When: Sunday 10th 2021f October 2021 07:40:26 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+
+QUERY: SELECT * FROM `library_authors` WHERE `author` = '123' OR `birth` = '' GROUP BY IF (`book_id` != 0); On line 16When: Thursday 14th 2021f October 2021 04:46:38 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\admin\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library_authors` WHERE `book_id` = 0; On line 2When: Thursday 14th 2021f October 2021 09:48:53 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\admin\library\add.php; 
+Unknown column 'book_id' in 'where clause'
+

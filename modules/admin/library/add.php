@@ -1,5 +1,5 @@
 <?php
-$authors_search = q("SELECT * FROM `library_authors` WHERE `book_id` = 0");
+$authors_search = q("SELECT * FROM `library_authors`");
 foreach ($authors_search as $v){
     $authors[$v["id"]] = $v["author"];
 }
@@ -27,15 +27,9 @@ if(!empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_
     $book_id_arr = $book_id_arr->fetch_assoc();
     $book_id = $book_id_arr["id"];
     foreach ($_POST["id_author"] as $k=>$v) {
-            $authors_add = q("
-                SELECT * FROM `library_authors` WHERE
-                `id` = '" . mresALL($v) . "'
-            ");
-            $authors_add = $authors_add->fetch_assoc();
             q("
-                INSERT INTO `library_authors` SET 
-                `author`  = '" . mresALL($authors_add["author"]) . "',
-                `birth`   = '" . mresALL($authors_add["birth"]) . "',
+                INSERT INTO `books_authors` SET 
+                `author_id`  = '" . (int)$v . "',
                 `book_id` = '" . (int)$book_id . "'
             ");
             $_SESSION['info_l'] = 'Книга была добавлена';
