@@ -15,7 +15,7 @@
             <?php if($authors_search->num_rows){?>
                 <p>Авторы:</p>
                 <?php foreach ($authors as $k=>$v) {
-                    $res_authors_ed = q("SELECT * FROM `library_authors` WHERE `book_id` = " . intALL($_GET['id']) . " AND `author` = '". $v ."'");
+                    $res_authors_ed = q("SELECT * FROM `books_authors` WHERE `author_id` = '". $k ."'");
                     ?>
                     <p><input type="checkbox" name="id_author[]" value="<?php echo hscALL($k)?>" <?php if ($res_authors_ed->num_rows){?> checked="checked"<?php }?>> <?php echo hscALL($v)?></p>
                 <?php }?>

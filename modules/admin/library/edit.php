@@ -1,5 +1,5 @@
 <?php
-$authors_search = q("SELECT * FROM `library_authors` WHERE `book_id` = 0");
+$authors_search = q("SELECT * FROM `library_authors`");
 
 foreach ($authors_search as $v){
     $authors[$v["id"]] = $v["author"];
@@ -27,9 +27,6 @@ if (isset($_FILES['file'])) {
 }
 
 if (isset($_GET['id']) && !empty($_POST['title']) && !empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_author'])) {
-    foreach ($_POST as $k => $v) {
-        $_POST[$k] = trim($v);
-    }
     q("
         UPDATE `library` SET
         `nump` = '" . intALL($_POST['nump']) ."',
@@ -37,19 +34,19 @@ if (isset($_GET['id']) && !empty($_POST['title']) && !empty($_POST['nump']) && !
         `title` = '" . mresALL($_POST['title']) ."'
         WHERE `id` = '" . $_GET['id'] . "'
     ");
-
     foreach ($_POST["id_author"] as $k=>$v) {
-        $authors_add = q("
-                SELECT * FROM `library_authors` WHERE
-                `id` = '" . mresALL($v) . "'
+        $res_ed_book = q( "
+                    SELECT * FROM `books_authors` WHERE 
+                    `author_id`  = '" . (int)$v . "'AND
+                    `book_id`   = '" . (int)$_GET["id"] . "'"
+                );
+        if (!$res_ed_book->num_rows){
+            q("
+                INSERT INTO `books_authors` SET 
+                `author_id`  = '" . (int)$v . "',
+                `book_id`   = '" . (int)$_GET["id"] . "'
             ");
-        $authors_add = $authors_add->fetch_assoc();
-        q("
-                UPDATE `library_authors` SET 
-                `author`  = '" . mresALL($authors_add["author"]) . "',
-                `birth`   = '" . mresALL($authors_add["birth"]) . "'
-                WHERE `book_id` = '" . (int)$_GET['id'] . "'
-            ");
+        }
     }
     $_SESSION['info_l'] = 'Запись была изменена';
     header('Location: /admin/library');

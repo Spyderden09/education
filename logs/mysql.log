@@ -1129,3 +1129,18 @@ You have an error in your SQL syntax; check the manual that corresponds to your 
 QUERY: SELECT * FROM `library_authors` WHERE `book_id` = 0; On line 2When: Thursday 14th 2021f October 2021 09:48:53 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\admin\library\add.php; 
 Unknown column 'book_id' in 'where clause'
 
+QUERY: SELECT * FROM `library_authors` WHERE `book_id` = 0; On line 2When: Friday 15th 2021f October 2021 04:45:39 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\admin\library\edit.php; 
+Unknown column 'book_id' in 'where clause'
+
+QUERY: SELECT * FROM `library_authors` WHERE `book_id` = 115 AND `author` = 'BookManGo'; On line 18When: Friday 15th 2021f October 2021 04:47:32 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\skins\admin\library\edit.tpl; 
+Unknown column 'book_id' in 'where clause'
+
+QUERY: SELECT * FROM `library_authors` WHERE `book_id` = 115 AND `author` = 'BookManGo'; On line 18When: Friday 15th 2021f October 2021 04:53:05 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\skins\admin\library\edit.tpl; 
+Unknown column 'book_id' in 'where clause'
+
+QUERY: SELECT * FROM `books_authors` WHERE `author` = 'BookManGo'; On line 18When: Friday 15th 2021f October 2021 04:59:54 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\skins\admin\library\edit.tpl; 
+Unknown column 'author' in 'where clause'
+
+QUERY: SELECT * FROM `books_authors` WHERE `author` = '35'; On line 18When: Friday 15th 2021f October 2021 05:01:22 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\skins\admin\library\edit.tpl; 
+Unknown column 'author' in 'where clause'
+
