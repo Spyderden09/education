@@ -66,8 +66,8 @@ if (isset($_POST['ids'], $_POST['delete'])) {
         WHERE `id` IN(" . $ids . ")
     ");
     q("
-        DELETE FROM `library_authors`
-        WHERE `id` IN(" . $ids . ")
+        DELETE FROM `books_authors`
+        WHERE `book_id` IN(" . $ids . ")
     ");
     $_SESSION['info_l'] = 'Выбраные Книги были Удалены';
     header('Location: /admin/library');
@@ -76,18 +76,15 @@ if (isset($_POST['ids'], $_POST['delete'])) {
 
 
 
-
-
-
-
-
-
 if (isset($_GET['id'])) {
     q("
         DELETE FROM `library`
-        WHERE `id` = " . intALL($_GET['id']) . "
+        WHERE `id` = " . (int)$_GET['id'] . "
     ");
-
+    q("
+        DELETE FROM `books_authors`
+        WHERE `book_id` = '". (int)$_GET['id'] . "'
+    ");
     $_SESSION['info_l'] = 'Книга была Удалёна';
     header('Location: /admin/library');
     exit();
