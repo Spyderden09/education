@@ -1,6 +1,7 @@
 <?php
 $limit = 3;
 $y = 1;
+
 if (isset($_POST['author']) || isset($_POST['birth']) || isset($_GET['author']) || isset($_GET['birth'])){
     if (isset($_POST['author'])){
         $author = $_POST['author'];
@@ -57,16 +58,13 @@ if (isset($_POST['author']) || isset($_POST['birth']) || isset($_GET['author']) 
         $res_author_libr = $res_author_libr_arr_all;
         $res_arr_books[$i] = $res_author_libr;
         $res_authors_books_q = q("SELECT * FROM `books_authors` WHERE `book_id` = '" . $res_arr_books[$i] ["id"] . "'");
-
         $z = 1;
         while ($z <= $res_authors_books_q->num_rows){
+            $res_authors_books = $res_authors_books_q->fetch_assoc();
+            $res_authors_q = q("SELECT * FROM `library_authors` WHERE `id` = '" . $res_authors_books["author_id"] . "'");
+            $res_arr_books[$i]["authors"]["author".$z] = $res_authors_q->fetch_assoc();
             ++$z;
-            $res_authors_books[] = $res_authors_books_q->fetch_assoc();
         }
-        $res_authors_books = $res_authors_books_q->fetch_assoc();
-
-        $res_authors_q = q("SELECT * FROM `library_authors` WHERE `id` = '" . $res_authors_books["author_id"] . "'");
-        $res_authors_books_arr = $res_authors_q->fetch_assoc();
     }
 
 }
