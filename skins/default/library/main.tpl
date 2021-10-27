@@ -12,14 +12,18 @@
                     <?php echo nl2br("\n");?>
                     <hr style="margin-bottom: 30px;">
                     <?php
-                    if(isset($res_cat) && $res_cat != false){
-                        while ($row = $res_cat->fetch_assoc()) {
+
+                    if(isset($res_arr_books) && $res_arr_books != false){
+                        $books_count = count($res_arr_books);
+                        while ($y <= $books_count) {
+                            $row = $res_arr_books[$y];
                             if (isset($row['img'])) {
                                 echo '<img src="' . $row['img'] . '">';
                             }
                             echo '<div class="clearfix"><br><span style="margin-left: 10px;color: #ff4f01;">' . floatALL($row['nump']) . 'Стр.</span>
-                                  <h4 style="margin-top: 0; margin-left: 10px; float: left;">' . hscALL($row['title']) . '</h4><h4>'.hscALL($res_arr_author).'</h4></div>
+                                  <h4 style="margin-top: 0; margin-left: 10px; float: left;">' . hscALL($row['title']) . '</h4><span style="margin-left: 15px;"> Автор: </span><span style="color: #ff4f01;">'.hscALL($row['author']).'</span><span style="margin-left: 15px;"> Год Рождения: </span><span style="color: #ff4f01;">'.intALL($row['birth']).'</span></div>
                                   <br>';
+                            $y++;
                         }
                     }else{
                         echo '<div>Выберите категорию книги</div>';
