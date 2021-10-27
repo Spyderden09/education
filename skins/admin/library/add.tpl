@@ -20,7 +20,7 @@
             <br>
             <?php }else{
                 echo "<p>На данный момент нету авторов. Создайте их</p>";
-            }?>
+            } ?>
             <textarea class="add-input" type="text" name="description" placeholder="Описание:"></textarea>
             <br>
             <input type="file" name="file">

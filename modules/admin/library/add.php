@@ -3,7 +3,7 @@ $authors_search = q("SELECT * FROM `library_authors`");
 foreach ($authors_search as $v){
     $authors[$v["id"]] = $v["author"];
 }
-if(!empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_author']) && !empty($_POST['title'])){
+if(!empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_author']) && !empty($_POST['title']) && count($_POST['id_author']) <= 4){
     if (isset($_FILES['file'])) {
         if(IMG::uploader($_FILES['file'])){
             $filename = IMG::resize( 300, 300, 'library_400x400');
@@ -36,5 +36,9 @@ if(!empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_
             header('Location: /admin/library');
     }
 }elseif(isset($_POST["add"])){
-    $message_libr = "Заполните все поля";
+    if (empty($_POST['nump']) || empty($_POST['description']) || empty($_POST['id_author']) || empty($_POST['title'])){
+        $message_libr = "Заполните все поля";
+    }elseif(count($_POST['id_author']) > 4){
+        $message_libr = "Вы указали больше 4 авторов. Укажите 4 или меньше авторов";
+    }
 }

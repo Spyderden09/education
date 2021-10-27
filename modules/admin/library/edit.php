@@ -26,7 +26,7 @@ if (isset($_FILES['file'])) {
     }
 }
 
-if (isset($_GET['id']) && !empty($_POST['title']) && !empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_author'])) {
+if (isset($_GET['id']) && !empty($_POST['title']) && !empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_author']) && count($_POST['id_author']) <= 4) {
     q("
         UPDATE `library` SET
         `nump` = '" . intALL($_POST['nump']) ."',
@@ -51,8 +51,12 @@ if (isset($_GET['id']) && !empty($_POST['title']) && !empty($_POST['nump']) && !
     $_SESSION['info_l'] = 'Запись была изменена';
     header('Location: /admin/library');
     exit();
-}elseif (isset($_POST["edit"])){
-    $message_libr = "Заполните все поля";
+}elseif(isset($_POST["edit"])){
+    if (empty($_POST['nump']) || empty($_POST['description']) || empty($_POST['id_author']) || empty($_POST['title'])){
+        $message_libr = "Заполните все поля";
+    }elseif(count($_POST['id_author']) > 4){
+        $message_libr = "Вы указали больше 4 авторов. Укажите 4 или меньше авторов";
+    }
 }
 $res_ed = q("SELECT * FROM `library` WHERE `id` = " . intALL($_GET['id']));
 if (!$res_ed->num_rows) {
