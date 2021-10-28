@@ -21,13 +21,16 @@
                             if (isset($row['img'])) {
                                 echo '<img src="' . $row['img'] . '">';
                             }
+
                             echo '<div class="clearfix"><br><span style="margin-left: 10px;color: #ff4f01;">' . floatALL($row['nump']) . 'Стр.</span>
-                                  <h4 style="margin-top: 0; margin-left: 10px; float: left;">' . hscALL($row['title']) . '</h4>';
+                                  <h4 style="margin-top: 0; margin-left: 10px; float: left;">' . hscALL($row['title']) . '</h4>
+                                  <div class="authors-all">Авторы:
+                                  <div class="drop-list-authors">';
                             while ($x <= count($res_arr_books[$y]["authors"])){
-                                echo '<span style="margin-left: 15px;"> Автор: </span><span style="color: #ff4f01;">'.hscALL($res_arr_books[$y]["authors"]["author".$x]["author"]).'</span><span style="margin-left: 15px;"> Год Рождения: </span><span style="color: #ff4f01;">'.intALL($res_arr_books[$y]["authors"]["author".$x]["birth"]).'</span>';
-                                $x++;
+                                echo '<p><span style="margin-left: 15px;"> Автор: </span><span style="color: #ff4f01;">'.hscALL($res_arr_books[$y]["authors"]["author".$x]["author"]).'</span><span style="margin-left: 15px;"> Год Рождения: </span><span style="color: #ff4f01;">'. intALL($res_arr_books[$y]["authors"]["author".$x]["birth"]).'</span></p>';
+                    $x++;
                             }
-                            echo "</div>";
+                            echo "</div></div></div>";
                             $y++;
                         }
                     }else{

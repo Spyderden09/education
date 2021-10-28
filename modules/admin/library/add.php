@@ -3,7 +3,7 @@ $authors_search = q("SELECT * FROM `library_authors`");
 foreach ($authors_search as $v){
     $authors[$v["id"]] = $v["author"];
 }
-if(!empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_author']) && !empty($_POST['title']) && count($_POST['id_author']) <= 4){
+if(!empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_author']) && !empty($_POST['title'])){
     if (isset($_FILES['file'])) {
         if(IMG::uploader($_FILES['file'])){
             $filename = IMG::resize( 300, 300, 'library_400x400');
@@ -27,18 +27,14 @@ if(!empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_
     $book_id_arr = $book_id_arr->fetch_assoc();
     $book_id = $book_id_arr["id"];
     foreach ($_POST["id_author"] as $k=>$v) {
-            q("
+        q("
                 INSERT INTO `books_authors` SET 
                 `author_id`  = '" . (int)$v . "',
                 `book_id` = '" . (int)$book_id . "'
             ");
-            $_SESSION['info_l'] = 'Книга была добавлена';
-            header('Location: /admin/library');
+        $_SESSION['info_l'] = 'Книга была добавлена';
+        header('Location: /admin/library');
     }
 }elseif(isset($_POST["add"])){
-    if (empty($_POST['nump']) || empty($_POST['description']) || empty($_POST['id_author']) || empty($_POST['title'])){
-        $message_libr = "Заполните все поля";
-    }elseif(count($_POST['id_author']) > 4){
-        $message_libr = "Вы указали больше 4 авторов. Укажите 4 или меньше авторов";
-    }
+    $message_libr = "Заполните все поля";
 }
