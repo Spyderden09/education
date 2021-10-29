@@ -14,22 +14,37 @@ if (isset($_POST['author']) || isset($_POST['birth']) || isset($_GET['author']) 
     }elseif (isset($_GET['birth'])){
         $birth = $_GET['birth'];
     }
-    $res_author_libr_q = q("SELECT * FROM `library_authors` WHERE `author` = '" . mresALL($author) . "' OR `birth` = '" . mresALL($birth) . "'");
+    $res_author_libr_q = q("SELECT * FROM `library_authors` WHERE `author` = '" . mresALL($author) . "' OR `birth` = '" . (int)$birth . "'");
+
     if ($res_author_libr_q->num_rows){
         $i = 0;
-        while ($res_author_libr_arr = $res_author_libr_q->fetch_assoc()) {
+        while ($res_author_libr_arr_all = $res_author_libr_q->fetch_assoc()) {
             $i++;
-            $res_author_libr = $res_author_libr_arr;
-            $res_arr_books[$i] = $res_author_libr;
-            $res_authors_books_q = q("SELECT * FROM `books_authors` WHERE `author_id` = '" . $res_arr_books[$i] ["id"] . "'");
-            $res_authors_books[] = $res_authors_books_q->fetch_assoc();
-            wtf($res_authors_books);
-
-            $res_books_q = q("SELECT * FROM `library` WHERE `id` = '" . $res_authors_books["book_id"] . "'");
-            $res_books_arr = $res_books_q->fetch_assoc();
-            $res_arr_books[$i] = $res_books_arr;
-            $res_arr_books[$i]["author"] = $res_author_libr["author"];
-            $res_arr_books[$i]["birth"] = $res_author_libr["birth"];
+            $res_author_libr = $res_author_libr_arr_all;
+            $res_authors_books_q = q("SELECT * FROM `books_authors` WHERE `author_id` = '" . (int)$res_author_libr["id"] . "'");
+            $a = 1;
+            while ($a <= $res_authors_books_q->num_rows) {
+                $res_author_libr = $res_authors_books_q->fetch_assoc();
+                $res_arr_author[$a] = $res_author_libr["book_id"];
+                $res_arr_author = array_unique($res_arr_author);
+                $a++;
+            }
+            $res_arr_author = implode(",", $res_arr_author);
+            $res_books_q_filter = q("SELECT * FROM `library` WHERE `id` IN (".mresALL($res_arr_author).")");
+            $d = 1;
+            while ($d <= $res_books_q_filter->num_rows) {
+                $res_author_libr = $res_books_q_filter->fetch_assoc();
+                $res_arr_books[$d] = $res_author_libr;
+                $res_authors_books_q = q("SELECT * FROM `books_authors` WHERE `book_id` = '" . $res_arr_books[$d] ["id"] . "'");
+                $z = 1;
+                while ($z <= $res_authors_books_q->num_rows){
+                    $res_authors_books = $res_authors_books_q->fetch_assoc();
+                    $res_authors_q = q("SELECT * FROM `library_authors` WHERE `id` = '" . $res_authors_books["author_id"] . "'");
+                    $res_arr_books[$d]["authors"]["author".$z] = $res_authors_q->fetch_assoc();
+                    ++$z;
+                }
+                $d++;
+            }
         }
 
             if (count($res_arr_books) > $limit){

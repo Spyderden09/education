@@ -1147,3 +1147,36 @@ Unknown column 'author' in 'where clause'
 QUERY: SELECT * FROM `books_authors WHERE '118'`; On line 56When: Saturday 16th 2021f October 2021 09:43:20 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
 Table 'user.books_authors where '118'' doesn't exist
 
+QUERY: SELECT * FROM `library` WHERE `id` IN () LIMIT 0,3; On line 45When: Friday 29th 2021f October 2021 05:59:45 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0,3' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN () LIMIT 0,3; On line 45When: Friday 29th 2021f October 2021 06:00:21 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0,3' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN () LIMIT 0,3; On line 45When: Friday 29th 2021f October 2021 06:00:36 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0,3' at line 1
+
+QUERY: SELECT * FROM `books_authors` WHERE `author` = 'BookManGo' OR `birth` = '123'; On line 17When: Friday 29th 2021f October 2021 06:08:27 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+Unknown column 'author' in 'where clause'
+
+QUERY: SELECT * FROM `library_authors` WHERE `author_id` = '35'; On line 19When: Friday 29th 2021f October 2021 06:27:30 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+Unknown column 'author_id' in 'where clause'
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (); On line 33When: Friday 29th 2021f October 2021 08:49:50 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (); On line 33When: Friday 29th 2021f October 2021 08:50:36 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (); On line 34When: Friday 29th 2021f October 2021 08:50:56 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (); On line 33When: Friday 29th 2021f October 2021 08:51:53 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (); On line 34When: Friday 29th 2021f October 2021 08:53:21 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+QUERY: SELECT * FROM `library` WHERE `id` IN (); On line 34When: Friday 29th 2021f October 2021 08:54:27 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
