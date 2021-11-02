@@ -33,8 +33,18 @@
                         echo '<div>Выберите категорию книги</div>';
                     }
                     if (isset($nr_libr)){
-                        for ($i = 1; $i <= $nr_libr; $i++){
-                            echo "<a href=\"/admin/library?num=".$i."&author=".$author."&birth=".$birth."\" class=\"a_paginator\">".$i."</a>";
+                        if(isset($author) || isset($birth)){
+                            $i = 1;
+                            while ($i <= $nr_libr){
+                                echo "<a href=\"/admin/library?num=".$i."&author=".$author."&birth=".$birth."\" class=\"a_paginator\">".$i."</a>";
+                                $i++;
+                            }
+                        }else{
+                            $i = 1;
+                            while ($i <= $nr_libr){
+                                echo "<a href=\"/admin/library?num=".$i."\" class=\"a_paginator\">".$i."</a>";
+                                $i++;
+                            }
                         }
                     }
                     echo nl2br("\n");echo nl2br("\n");echo nl2br("\n");

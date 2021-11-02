@@ -46,6 +46,7 @@ if (isset($_POST['author']) || isset($_POST['birth']) || isset($_GET['author']) 
                 $res_cat = q("SELECT * FROM `library` WHERE `id` IN (".$res_arr.") LIMIT " . intALL($num_l_s) .",". intALL($limit));
 
             }
+
         }else{
             $res_cat = false;
         }
@@ -54,6 +55,20 @@ if (isset($_POST['author']) || isset($_POST['birth']) || isset($_GET['author']) 
     }
 } else {
     $res_cat = q("SELECT * FROM `library`");
+    if ($res_cat->num_rows > $limit){
+        if (isset($_GET["num"])) {
+            $page = $_GET["num"];
+        }else{
+            $page = 1;
+        }
+        $nr_libr = $res_cat->num_rows / $limit;
+        $nr_libr = ceil($nr_libr);
+
+        $num_l_s = $page * $limit - $limit;
+
+        $res_cat = q("SELECT * FROM `library` LIMIT " . intALL($num_l_s) .",". intALL($limit));
+
+    }
 }
 
 if (isset($_POST['ids'], $_POST['delete'])) {
