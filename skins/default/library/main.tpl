@@ -29,11 +29,25 @@
             }else{
                 echo '<div>Выберите категорию книги</div>';
             }
+            echo '<div class="paginator">';
             if (isset($nr_libr)){
-                    while ($g <= $nr_libr){
-                        echo "<a href=\"/library?num=".$g."\" class=\"a_paginator\">".$g."</a>";
+                echo "<a href=\"/library?num=1\" class=\"a_paginator_first\">1</a>";
+                    while ($g <= $page_num_g) {
+                        echo "<a href=\"/library?num=" . ($page_g + $g) . "\" class=\"a_paginator\">" . ($page_g + $g) . "</a>";
                         $g++;
                     }
+                echo "<a href=\"/library?num=". $page ."\" class=\"a_paginator\">".$page."</a>";
+
+                if ($page_num_t != 0) {
+                    while ($t <= $page_num_t) {
+                        echo "<a href=\"/library?num=" . ($page+$t) . "\" class=\"a_paginator\">" . ($page+$t) . "</a>";
+                        $t++;
+
+                    }
+                }
+                echo "<a href=\"/library?num=" . $nr_libr . "\" class=\"a_paginator_last\">" . $nr_libr . "</a>";
+                echo '</div>';
+
             }
             echo nl2br("\n");echo nl2br("\n");echo nl2br("\n");
             ?>

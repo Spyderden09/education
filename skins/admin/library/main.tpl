@@ -34,27 +34,55 @@
                     }
                     if (isset($nr_libr)){
                         if(isset($author) || isset($birth)){
+                            echo "<a href=\"/admin/library?num=1&author=".$author."&birth=".$birth."\" class=\"a_paginator_first\">1</a>";
+                            while ($g <= $page_num_g) {
+                                echo "<a href=\"/admin/library?num=" . ($page_g + $g) . "&author=".$author."&birth=".$birth."\" class=\"a_paginator\">" . ($page_g + $g) . "</a>";
+                                $g++;
+                            }
+                            echo "<a href=\"/admin/library?num=". $page ."&author=".$author."&birth=".$birth."\" class=\"a_paginator\">".$page."</a>";
+
+                            if ($page_num_t != 0) {
+                                while ($t <= $page_num_t) {
+                                    echo "<a href=\"/admin/library?num=" . ($page+$t) . "&author=".$author."&birth=".$birth."\" class=\"a_paginator\">" . ($page+$t) . "</a>";
+                                    $t++;
+
+                                }
+                            }
+                            echo "<a href=\"/admin/library?num=" . $nr_libr . "&author=".$author."&birth=".$birth."\" class=\"a_paginator_last\">" . $nr_libr . "</a>";
+                            echo '</div>';
                             $i = 1;
                             while ($i <= $nr_libr){
                                 echo "<a href=\"/admin/library?num=".$i."&author=".$author."&birth=".$birth."\" class=\"a_paginator\">".$i."</a>";
                                 $i++;
                             }
                         }else{
-                            $i = 1;
-                            while ($i <= $nr_libr){
-                                echo "<a href=\"/admin/library?num=".$i."\" class=\"a_paginator\">".$i."</a>";
-                                $i++;
+                            echo "<a href=\"/admin/library?num=1\" class=\"a_paginator_first\">1</a>";
+                            while ($g <= $page_num_g) {
+                                echo "<a href=\"/admin/library?num=" . ($page_g + $g) . "\" class=\"a_paginator\">" . ($page_g + $g) . "</a>";
+                                $g++;
                             }
+                            echo "<a href=\"/admin/library?num=". $page ."\" class=\"a_paginator\">".$page."</a>";
+
+                            if ($page_num_t != 0) {
+                                while ($t <= $page_num_t) {
+                                    echo "<a href=\"/admin/library?num=" . ($page+$t) . "\" class=\"a_paginator\">" . ($page+$t) . "</a>";
+                                    $t++;
+
+                                }
+                            }
+                            echo "<a href=\"/admin/library?num=" . $nr_libr . "\" class=\"a_paginator_last\">" . $nr_libr . "</a>";
+                            echo '</div>';
                         }
                     }
                     echo nl2br("\n");echo nl2br("\n");echo nl2br("\n");
                     ?>
                     <br>
-
-                    <a class="main-sub" href="/admin/library/add">ДОБАВИТЬ КНИГУ</a>
-                    <input class="main-sub2" type="submit" name="delete" value="Удалить Отмеченые Книги">
-                    <a class="cat_button" href="/admin/library/add_author">Добавить автора</a>
-                    <a class="cat_button" href="/admin/library/edit_all_authors">Изменить автора</a>
+                    <div class="buttons_control">
+                        <a class="main-sub" href="/admin/library/add">ДОБАВИТЬ КНИГУ</a>
+                        <input class="main-sub2" type="submit" name="delete" value="Удалить Отмеченые Книги">
+                        <a class="cat_button" href="/admin/library/add_author">Добавить автора</a>
+                        <a class="cat_button" href="/admin/library/edit_all_authors">Изменить автора</a>
+                    </div>
                 </form>
             </div>
         </div>

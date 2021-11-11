@@ -1273,3 +1273,15 @@ You have an error in your SQL syntax; check the manual that corresponds to your 
 QUERY: SELECT * FROM `library` WHERE `id` IN () LIMIT 0,3; On line 69When: Tuesday 02nd 2021f November 2021 08:06:36 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\admin\library\main.php; 
 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0,3' at line 1
 
+QUERY: SELECT * FROM library LIMIT -3,3; On line 33When: Wednesday 10th 2021f November 2021 08:32:29 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-3,3' at line 1
+
+QUERY: SELECT * FROM library LIMIT -3,3; On line 33When: Wednesday 10th 2021f November 2021 08:33:07 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-3,3' at line 1
+
+QUERY: SELECT * FROM library LIMIT -3,3; On line 31When: Wednesday 10th 2021f November 2021 09:51:18 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-3,3' at line 1
+
+QUERY: SELECT * FROM library LIMIT -6,3; On line 31When: Thursday 11th 2021f November 2021 12:18:14 AM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-6,3' at line 1
+

@@ -68,6 +68,35 @@ if (isset($_POST['author']) || isset($_POST['birth']) || isset($_GET['author']) 
 
         $res_cat = q("SELECT * FROM `library` LIMIT " . intALL($num_l_s) .",". intALL($limit));
 
+        $g = 1;
+        $t = 1;
+        if (($page-4) > 0){
+            $page_num_g = 4;
+            $page_g = $page - 5;
+        }elseif (($page-3) > 0){
+            $page_num_g = 3;
+            $page_g = $page - 4;
+        }elseif (($page-2) > 0){
+            $page_num_g = 2;
+            $page_g = $page - 3;
+        }elseif (($page-1) > 0){
+            $page_num_g = 1;
+            $page_g = $page - 2;
+        }else{
+            $page_num_g = 0;
+        }
+
+        if (($page+4) <= $nr_libr){
+            $page_num_t = 4;
+        }elseif (($page+3) <= $nr_libr){
+            $page_num_t = 3;
+        }elseif (($page+2) <= $nr_libr){
+            $page_num_t = 2;
+        }elseif (($page+1) <= $nr_libr){
+            $page_num_t = 1;
+        }else{
+            $page_num_t = 0;
+        }
     }
 }
 
