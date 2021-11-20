@@ -11,20 +11,19 @@ if(!empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_
             $err = IMG::$error;
         }
     }
-    for($i=0;$i<=20;$i++) {
         q("
-        INSERT INTO `library` SET 
-        `nump` = '" . (int)$_POST['nump'] . "',
-        `description`  = '" . mresALL($_POST['description']) . "',
-        `title` = '" . mresALL($_POST['title']) . "',
-        `img` = '" . (isset($filename) ? $filename : '') . "'
-    ");
-        $book_id_arr = q("
-        SELECT * FROM `library` WHERE
-        `nump` = '" . (int)$_POST['nump'] . "' AND
-        `description`  = '" . mresALL($_POST['description']) . "' AND
-        `title` = '" . mresALL($_POST['title']) . "' 
-    ");
+            INSERT INTO `library` SET 
+            `nump` = '" . (int)$_POST['nump'] . "',
+            `description`  = '" . mresALL($_POST['description']) . "',
+            `title` = '" . mresALL($_POST['title']) . "',
+            `img` = '" . (isset($filename) ? $filename : '') . "'
+        ");
+            $book_id_arr = q("
+            SELECT * FROM `library` WHERE
+            `nump` = '" . (int)$_POST['nump'] . "' AND
+            `description`  = '" . mresALL($_POST['description']) . "' AND
+            `title` = '" . mresALL($_POST['title']) . "' 
+        ");
         $book_id_arr = $book_id_arr->fetch_assoc();
         $book_id = $book_id_arr["id"];
         foreach ($_POST["id_author"] as $k => $v) {
@@ -36,7 +35,6 @@ if(!empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_
         }
         $_SESSION['info_l'] = 'Книга была добавлена';
         header('Location: /admin/library');
-    }
 }elseif(isset($_POST["add"])){
     $message_libr = "Заполните все поля";
 }

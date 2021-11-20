@@ -27,7 +27,7 @@
                     $y++;
                 }
             }else{
-                echo '<div>Выберите категорию книги</div>';
+                echo '<div>На данный момент нету книг</div>';
             }
             echo '<div class="paginator">';
             if (isset($nr_libr)){
