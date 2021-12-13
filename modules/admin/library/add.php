@@ -18,7 +18,7 @@ if(!empty($_POST['nump']) && !empty($_POST['description']) && !empty($_POST['id_
             `title` = '" . mresALL($_POST['title']) . "',
             `img` = '" . (isset($filename) ? $filename : '') . "'
         ");
-            $book_id_arr = q("
+        $book_id_arr = q("
             SELECT * FROM `library` WHERE
             `nump` = '" . (int)$_POST['nump'] . "' AND
             `description`  = '" . mresALL($_POST['description']) . "' AND

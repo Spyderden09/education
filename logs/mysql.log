@@ -1285,3 +1285,21 @@ You have an error in your SQL syntax; check the manual that corresponds to your 
 QUERY: SELECT * FROM library LIMIT -6,3; On line 31When: Thursday 11th 2021f November 2021 12:18:14 AM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-6,3' at line 1
 
+QUERY: SELECT * FROM books_authors WHERE book_id = IN (89113,89114); On line 32When: Saturday 20th 2021f November 2021 02:26:41 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IN (89113,89114)' at line 1
+
+QUERY: SELECT * FROM library_authors WHERE id IN(,,); On line 41When: Saturday 20th 2021f November 2021 03:47:43 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,)' at line 1
+
+QUERY: SELECT * FROM library_authors WHERE id IN(,); On line 42When: Sunday 21st 2021f November 2021 09:34:34 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',)' at line 1
+
+QUERY: SELECT * FROM books_authors WHERE book_id IN (,); On line 33When: Sunday 28th 2021f November 2021 02:41:22 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',)' at line 1
+
+QUERY: SELECT * FROM books_authors WHERE book_id IN (,); On line 33When: Sunday 28th 2021f November 2021 02:42:15 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',)' at line 1
+
+QUERY: SELECT * FROM books_authors WHERE book_id IN (,); On line 34When: Sunday 28th 2021f November 2021 02:42:41 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',)' at line 1
+

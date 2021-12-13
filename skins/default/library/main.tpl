@@ -8,9 +8,9 @@
             <?php
             if(isset($res_arr_books) && $res_arr_books != false){
                 $books_count = count($res_arr_books);
-                while ($y <= $books_count) {
+                foreach ($res_arr_books as $k => $v) {
                     $x = 1;
-                    $row = $res_arr_books[$y];
+                    $row = $v;
                     if (isset($row['img'])) {
                         echo '<img src="' . $row['img'] . '">';
                     }
@@ -19,8 +19,8 @@
                                   <h4 style="margin-top: 0; margin-left: 10px; float: left;">' . hscALL($row['title']) . '</h4>
                                   <div class="authors-all">Авторы:
                                   <div class="drop-list-authors">';
-                    while ($x <= count($res_arr_books[$y]["authors"])){
-                        echo '<p><span style="margin-left: 15px;"> Автор: </span><span style="color: #ff4f01;">'.hscALL($res_arr_books[$y]["authors"]["author".$x]["author"]).'</span><span style="margin-left: 15px;"> Год Рождения: </span><span style="color: #ff4f01;">'. intALL($res_arr_books[$y]["authors"]["author".$x]["birth"]).'</span></p>';
+                    foreach ($v["authors"] as $k => $v) {
+                        echo '<p><span style="margin-left: 15px;"> Автор: </span><span style="color: #ff4f01;">'.hscALL($res_arr_authors[$v["id"]]["author"]).'</span><span style="margin-left: 15px;"> Год Рождения: </span><span style="color: #ff4f01;">'. intALL($res_arr_authors[$v["id"]]["birth"]).'</span></p>';
                         $x++;
                     }
                     echo "</div></div></div>";
@@ -37,7 +37,7 @@
                         $g++;
                     }
                 echo "<a href=\"/library?num=". $page ."\" class=\"a_paginator\">".$page."</a>";
-
+ 
                 if ($page_num_t != 0) {
                     while ($t <= $page_num_t) {
                         echo "<a href=\"/library?num=" . ($page+$t) . "\" class=\"a_paginator\">" . ($page+$t) . "</a>";

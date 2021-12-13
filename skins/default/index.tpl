@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="/skins/default/sprite.css" />
     <link rel="stylesheet" href="/skins/default/temp_style.css?r=<?=rand(1,99999999);?>">
+    <script type="text/javascript" src="/skins/default/js/scripts_v1_6.js"></script>
     <?php if (count(Core::$CSS)){echo implode("\n",Core::$CSS);}?>
     <?php if (count(Core::$JS)){echo implode("\n",Core::$JS);}?>
 </head>
@@ -64,8 +65,19 @@
                                 </div>
                                 <a href="/" class="a_2">To home</a>
                                 <?php if (!isset($_SESSION['user'])) {?>
-                                <a href="/login/login" class="a_2_2">Log in</a>
+
+
+
+
+                                <a class="a_2_2" onmousedown="hideShow('auth');hideShow('darkV')">Log in</a>
+                                <div id="darkV" class="dark-veil"></div>
+
+
+
+
                                 <?php
+                                include './skins/default/login/login.tpl';
+
                                 }
                                 if (isset($_SESSION['user']) && ($_SESSION['user'] ['access'] == 1 || $_SESSION['user'] ['access'] == 2)){?>
                                     <a href="/catalog" class="a_4">Catalog</a>

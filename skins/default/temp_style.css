@@ -10,6 +10,44 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.login_block{
+    width: 200px;
+    margin-top: 85px;
+    margin-left: 8px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 23px;
+    display: none;
+    z-index: 11;
+    position: fixed;
+    background-color: white;
+}
+.X{
+    border-radius: 70px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+    background-color: gray;
+    color: #542d2d;
+    font-family: Arial Narrow, sans-serif;
+}
+.X:hover{
+    background-color: #542d2d;
+    color: gray;
+}
+.dark-veil{
+    background-color: black;
+    position: fixed;
+    width: 3000px;
+    height: 1000px;
+    margin-left: -1500px;
+    z-index: 10;
+    margin-top: -30px;
+    opacity: .7;
+    display: none;
+}
+
+
 .start_block{
     width:100%;
     color:#EEEEEE;

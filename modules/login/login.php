@@ -1,15 +1,15 @@
 <?php
 if(isset($_POST['login'],$_POST['pass'])){
-    $res = q("
+    $res = q(" 
         SELECT *
         FROM `users`
-        WHERE `login` = '".mysqli_real_escape_string($link_DB,$_POST['login'])."'
+        WHERE `login` = '".mresALL($_POST['login'])."'
         AND `pass` = '".MyHash($_POST['pass'])."'
         AND `active` = 1
         LIMIT 1
     ");
-    if (mysqli_num_rows($res)){
-        $_SESSION['user'] = mysqli_fetch_assoc($res);
+    if ($res->num_rows){
+        $_SESSION['user'] = $res->fetch_assoc();
         $status = 'OK';
         if (isset($_POST['aa']) && $status == 'OK'){
             setcookie('login',$_SESSION['user'] ['login'],time()+3600 * 24 * 30,'/');
@@ -23,23 +23,25 @@ if(isset($_POST['login'],$_POST['pass'])){
 
             $browse = q("
                 UPDATE `users` SET
-                `browse` = '". mysqli_real_escape_string($link_DB,$_SERVER['HTTP_USER_AGENT']) ."' 
-                WHERE `hash` = '".mysqli_real_escape_string($link_DB,$_SESSION['user'] ['hash'])."'        
+                `browse` = '". mresALL($_SERVER['HTTP_USER_AGENT']) ."' 
+                WHERE `hash` = '".mresALL($_SESSION['user'] ['hash'])."'        
                 AND `id` = '".(int)$_SESSION['user'] ['id']."'
                 AND `active` = 1
             ");
             $ip = q("
                 UPDATE `users` SET
-                `ip` = '". mysqli_real_escape_string($link_DB,$_SERVER['REMOTE_ADDR']) ."' 
-                WHERE `hash` = '".mysqli_real_escape_string($link_DB,$_SESSION['user'] ['hash'])."'
+                `ip` = '". mresALL($_SERVER['REMOTE_ADDR']) ."' 
+                WHERE `hash` = '".mresALL($_SESSION['user'] ['hash'])."'
                 AND `id` = '".(int)$_SESSION['user'] ['id']."'
                 AND `active` = 1
             ");
-            header("Location: /login/login");
-            exit();
         }
+        header("Location: /login/info");
+        exit();
     }else{
-        $error = 'Нет пользователя с таким логином или паролем';
+        $_SESSION["error"] = 'Нет пользователя с таким логином или паролем';
+        header("Location: /login/info");
+        exit();
     }
 }
 
