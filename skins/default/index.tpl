@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="/skins/default/sprite.css" />
     <link rel="stylesheet" href="/skins/default/temp_style.css?r=<?=rand(1,99999999);?>">
-    <script type="text/javascript" src="/skins/default/js/scripts_v1_6.js"></script>
+    <script type="text/javascript" src="/skins/default/js/scripts_v1_9.js?v=<?=rand(1,999999);?>"></script>
     <?php if (count(Core::$CSS)){echo implode("\n",Core::$CSS);}?>
     <?php if (count(Core::$JS)){echo implode("\n",Core::$JS);}?>
 </head>

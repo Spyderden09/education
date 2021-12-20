@@ -1,5 +1,6 @@
 <?php
-if(isset($_POST['login'],$_POST['pass'])){
+$_SESSION["error"] = "";
+if(!empty($_POST['login']) && !empty($_POST['pass'])){
     $res = q(" 
         SELECT *
         FROM `users`

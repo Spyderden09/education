@@ -25,9 +25,9 @@ if (isset($_GET['route'])) {
     unset($_GET['route']);
 }
 
-if(!isset($_GET['module'])) {
+if(empty($_GET['module'])) {
     $_GET['module'] = 'static';
-} else{
+}
     $res = q("
         SELECT *
         FROM `pages`
@@ -44,8 +44,6 @@ if(!isset($_GET['module'])) {
             $_GET['page'] = 'main';
         }
     }
-}
-
 if (isset($_GET['page']) && !preg_match('#^[a-z-_]*$#iu',$_GET['page'])){
     header("Location: /404");
     exit();
