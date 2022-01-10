@@ -11,22 +11,23 @@ if (isset($_SESSION['user'])  || isset($_COOKIE['aa'],$_COOKIE['pass'], $_COOKIE
         <br>
         <br>
         <?php
-        while($row = mysqli_fetch_assoc($res_sel)) {
-            echo '<div class="comm_inf">
-            <h4 class="h4_comments">Name</h4>';
-            echo htmlspecialchars($row['login']);
-            echo '<br></div>
-        <div class="comm_inf">
-        <h4 class="h4_comments">Last comment</h4>
-        <br>';
+        while($row = $res_sel->fetch_assoc()) {
+            echo '<div class="comment_div"><div class="comm_inf">
+            <p class="login_comments">'. hscALL($row['login']);
+            if (!empty($row["destination"])){
+                echo '<span class="destination_comments">→'.$row["destination"].'</span>';
+            }
+            echo '<span class="comment_date">'.$row["date"].'</span></p></div><hr color="#1b2640" noshade  class="comment_hr">  
+            <div class="comm_inf">
+            <br>';
 
-            echo htmlspecialchars($row['text']);
-            echo '</div>';
+            echo hscALL($row['comment']);
+            echo '</div></div>';
         }
         ?>
-        <h1 class="h_comments">Write comments:</h1>
-        <textarea name="comm" class="comm_text" placeholder="Введите коментарий:"></textarea>
-        <input name="wrlog" class="comm_text" placeholder="Введите имя:">
+        <h1 class="h_comments">Комментарий:</h1>
+        <textarea name="comment" class="comm_text" placeholder="Введите коментарий:"></textarea>
+        <input name="destination" class="comm_text" placeholder="Кому:">
         <br>
         <input name="submit" type="submit" class="comm_sub">
     </form>

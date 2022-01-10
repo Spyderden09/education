@@ -1303,3 +1303,94 @@ You have an error in your SQL syntax; check the manual that corresponds to your 
 QUERY: SELECT * FROM books_authors WHERE book_id IN (,); On line 34When: Sunday 28th 2021f November 2021 02:42:41 PM; In function q; In file:D:\OpenServer\OpenServer\domains\education\modules\library\main.php; 
 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',)' at line 1
 
+QUERY: 
+            INSERT INTO `users` SET 
+            `age`       =  0,
+            `text`     = '123',
+            `login`      = 'TestBot',
+            `email`     = 'tb@gmail.com',
+            `destination` = ''
+        ; On line 11When: Thursday 23rd 2021f December 2021 07:00:50 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\main.php; 
+Unknown column 'text' in 'field list'
+
+QUERY: 
+            INSERT INTO `users` SET 
+            `age`       =  18,
+            `text`     = '123',
+            `login`      = 'TestBot',
+            `email`     = 'tb@gmail.com',
+            `destination` = ''
+        ; On line 11When: Thursday 23rd 2021f December 2021 07:01:24 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\main.php; 
+Unknown column 'text' in 'field list'
+
+QUERY: 
+            INSERT INTO `users` SET 
+            `age`       =  18,
+            `text`     = '123',
+            `login`      = 'TestBot',
+            `email`     = 'tb@gmail.com',
+            `destination` = ''
+        ; On line 11When: Thursday 23rd 2021f December 2021 07:02:00 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\main.php; 
+Unknown column 'text' in 'field list'
+
+QUERY: 
+            INSERT INTO `users` SET 
+            `age`       =  18,
+            `text`     = 'eqw',
+            `login`      = 'TestBot',
+            `email`     = 'tb@gmail.com',
+            `destination` = ''
+        ; On line 11When: Thursday 23rd 2021f December 2021 07:03:09 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\main.php; 
+Unknown column 'text' in 'field list'
+
+QUERY: 
+            INSERT INTO `users` SET 
+            `age`       =  18,
+            `text`     = 'eqw',
+            `login`      = 'TestBot',
+            `email`     = 'tb@gmail.com',
+            `destination` = ''
+        ; On line 11When: Thursday 23rd 2021f December 2021 07:03:47 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\main.php; 
+Unknown column 'text' in 'field list'
+
+QUERY: 
+            INSERT INTO `users` SET 
+            `age`       =  18,
+            `text`     = 'eqw',
+            `login`      = 'TestBot',
+            `email`     = 'tb@gmail.com',
+            `destination` = ''
+        ; On line 11When: Thursday 23rd 2021f December 2021 07:03:52 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\main.php; 
+Unknown column 'text' in 'field list'
+
+QUERY: 
+            INSERT INTO `users` SET 
+            `age`       =  18,
+            `comment`     = 'eqw',
+            `login`      = 'TestBot',
+            `email`     = 'tb@gmail.com',
+            `destination` = ''
+        ; On line 11When: Thursday 23rd 2021f December 2021 07:04:51 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\main.php; 
+Unknown column 'comment' in 'field list'
+
+QUERY: 
+            INSERT INTO `comments` SET 
+            `age`       =  18,
+            `comment`     = 'eqw',
+            `login`      = 'TestBot',
+            `email`     = 'tb@gmail.com',
+            `destination` = ''
+        ; On line 11When: Thursday 23rd 2021f December 2021 07:05:25 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\main.php; 
+Incorrect integer value: '' for column 'destination' at row 1
+
+QUERY: 
+            INSERT INTO `comments` SET 
+            `age`       =  18,
+            `comment`     = '234',
+            `login`      = 'TestBot',
+            `email`     = 'tb@gmail.com',
+            `destination` = '324',
+            `date` = December 24, 2021, 3:19 pm
+        ; On line 12When: Friday 24th 2021f December 2021 03:19:26 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '24, 2021, 3:19 pm' at line 7
+

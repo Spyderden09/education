@@ -2791,11 +2791,6 @@ a.li:hover{
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: normal;
 }
-.h4_comments{
-    font-size:19px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #FFFFFF;
-}
 .h_comments{
     font-size:23px;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -2806,6 +2801,34 @@ a.li:hover{
     padding-bottom: 30px;
     color: #FFFFFF;
     padding-left: 200px;
+}
+.comment_div{
+    background-color: #8FBC8F;
+    color: Indigo;
+    border-radius: 20px;
+    padding-left: 30px;
+    width: 532px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.comment_date{
+    float: right;
+    font-size:14px;
+    color: SaddleBrown;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.login_comments{
+    font-size:18px;
+    color: SlateBlue;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.destination_comments{
+    font-size:18px;
+    color: DarkMagenta;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .comm_text{
     display: block;
