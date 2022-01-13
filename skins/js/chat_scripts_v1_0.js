@@ -1,5 +1,3 @@
-<script>
-
 function myAjax() {
     $.ajax({
         url: '/comments',
@@ -9,6 +7,7 @@ function myAjax() {
         data: {},
         success: function (comm) {
             var response = JSON.parse(comm)
+            alert(response.age + "123")
         },
         error: function (x, t, m) {
             if (t==="timeout") {
@@ -18,6 +17,4 @@ function myAjax() {
             }
         }
     });
-}
-
-</script>
+}   

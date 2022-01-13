@@ -23,4 +23,6 @@ if (isset($_SESSION['user']) || isset($_COOKIE['aa'],$_COOKIE['pass'], $_COOKIE[
             `date` = '". $comment_arr["date"] ."'
         ");
     }
+
+
 }
