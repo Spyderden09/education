@@ -7,7 +7,7 @@ function myAjax() {
         data: {},
         success: function (comm) {
             var response = JSON.parse(comm)
-            alert(response.age + "123")
+            alert(response.age)
         },
         error: function (x, t, m) {
             if (t==="timeout") {
@@ -17,4 +17,4 @@ function myAjax() {
             }
         }
     });
-}   
+}

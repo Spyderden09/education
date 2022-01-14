@@ -1,9 +1,9 @@
-<?php
+ b <?php
 if (isset($_SESSION['user'])  || isset($_COOKIE['aa'],$_COOKIE['pass'], $_COOKIE['login'])) {
     ?>
 <div class="comments">
     <div class="margin_block">
-    <form action="" method="post">
+    <form action="" method="post" onsubmit="return MyAjax('comment', 'dest')">
         <br>
         <h2 class="h1_comments">Comments</h2>
         <div class="line_1"></div>
@@ -26,8 +26,8 @@ if (isset($_SESSION['user'])  || isset($_COOKIE['aa'],$_COOKIE['pass'], $_COOKIE
         }
         ?>
         <h1 class="h_comments">Комментарий:</h1>
-        <textarea name="comment" class="comm_text" placeholder="Введите коментарий:"></textarea>
-        <input name="destination" class="comm_text" placeholder="Кому:">
+        <textarea name="comment" class="comm_text" id="comment" placeholder="Введите коментарий:"></textarea>
+        <input name="destination" class="comm_text" id="dest" placeholder="Кому:">
         <br>
         <input name="submit" type="submit" class="comm_sub">
     </form>

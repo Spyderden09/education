@@ -1,4 +1,4 @@
-<div class="margin_block2">
+ <div class="margin_block2">
     <?php if(!isset($_SESSION['user']) || isset($_COOKIE['aa']) && !isset($_COOKIE['pass'], $_COOKIE['login'])){ ?>
 <form action="/login" method="post">
     <?php
