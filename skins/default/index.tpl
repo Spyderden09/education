@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="/skins/default/sprite.css" />
     <link rel="stylesheet" href="/skins/default/temp_style.css?r=<?=rand(1,99999999);?>">
     <script type="text/javascript" src="/skins/js/scripts_v1_8.js?v=<?=rand(1,999999);?>"></script>
-    <script type="text/javascript" src="/skins/js/chat_scripts_v1_0.js?v=<?=rand(1,999999);?>"></script>
+    <script type="text/javascript" src="/skins/js/chat_scripts_v1_1.js?v=<?=rand(1,999999);?>"></script>
+    <script type="text/javascript" src="/skins/js/components/jquery-3.6.0.min.js"></script>
     <?php if (count(Core::$CSS)){echo implode("\n",Core::$CSS);}?>
     <?php if (count(Core::$JS)){echo implode("\n",Core::$JS);}?>
 </head>
@@ -78,7 +79,6 @@
 
                                 <?php
                                 include './skins/default/login/login.tpl';
-
                                 }
                                 if (isset($_SESSION['user']) && ($_SESSION['user'] ['access'] == 1 || $_SESSION['user'] ['access'] == 2)){?>
                                     <a href="/catalog" class="a_4">Catalog</a>

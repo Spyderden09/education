@@ -10,6 +10,75 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.click-here{
+    height: 30px;
+    background-color: #0a0a93;
+    padding: 5px;
+    width: 80px;
+}
+.player1{
+    background-color: #1a4bbd;
+    border: 2px solid black;
+    width: 150px;
+    padding: 10px;
+    height: 220px;
+    float: left;
+    margin-left: 10px;
+}
+.player2{
+    background-color: #1a4bbd;
+    border: 2px solid black;
+    width: 150px;
+    padding: 10px;
+    height: 220px;
+    float: left;
+    margin-left: 10px;
+}
+.hp{
+    margin-left: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #c4eec4;
+}
+.game-content{
+    display: none;
+}
+.loader{
+    margin-left: 550px;
+    display: none;
+}
+.start-game-button{
+    margin-left: 114px;
+    height: 32px;
+    width: 172px;
+    padding: 5px 17px;
+    background-color: #dbc21e;
+    color: #d42222;
+    font-weight: bold;
+    border: 3px solid #01a6ff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.start-game-button:hover{
+    background-color: #d42222;
+    color: #dbc21e;
+}
+.start-game{
+    display: block;
+    margin-left: 550px;
+    margin-bottom: 30px;
+}
+.playground{
+    background-color: #930a0a;
+    color: #8FBC8F;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 250px;
+    margin-left: -20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
 .login_block{
     width: 200px;
     margin-top: 85px;

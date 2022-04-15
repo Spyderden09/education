@@ -1,4 +1,10 @@
 <?php
+    if(empty($hp_player) || empty($hp_bot)) {
+        $user_hp = q("SELECT * FROM `game` WHERE `user_id` = ".$_SESSION['user']['id']);
+        $user_hp_arr = $user_hp->fetch_assoc();
+        $_SESSION['hp_player'] = $user_hp_arr['c_hp'];
+        $_SESSION['hp_bot'] = $user_hp_arr['hp'];
+    }
     if(isset($_SESSION['user'])){
         $res = q("
             SELECT *
@@ -6,7 +12,6 @@
             WHERE `id` = '".$_SESSION['user'] ['id']."'
             LIMIT 1
         ");
-        $_SESSION['user'] = mysqli_fetch_assoc($res);
 
         if ($_SESSION['user'] ['active'] == 2 && $_GET['page'] != 'log_exit'){
                 header("Location: /login/log_exit");
@@ -16,7 +21,7 @@
         $res = q("
         SELECT *
         FROM `users`
-        WHERE `hash` = '".mysqli_real_escape_string($link_DB,$_COOKIE['hash'])."'
+        WHERE `hash` = '".mresALL($_COOKIE['hash'])."'
             AND `id` = '".(int)$_COOKIE['id']."'
             AND `active` = 1
             LIMIT 1

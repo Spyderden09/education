@@ -1394,3 +1394,330 @@ QUERY:
         ; On line 12When: Friday 24th 2021f December 2021 03:19:26 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\main.php; 
 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '24, 2021, 3:19 pm' at line 7
 
+QUERY: INSERT INTO `library` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 2:38 pm',
+            `dest` = '123'; On line 9When: Tuesday 08th 2022f February 2022 02:38:20 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'age' in 'field list'
+
+QUERY: INSERT INTO `library` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 2:39 pm',
+            `dest` = '213'; On line 9When: Tuesday 08th 2022f February 2022 02:39:37 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'age' in 'field list'
+
+QUERY: INSERT INTO `library` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 2:39 pm',
+            `dest` = '213'; On line 9When: Tuesday 08th 2022f February 2022 02:39:38 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'age' in 'field list'
+
+QUERY: INSERT INTO `library` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 2:39 pm',
+            `dest` = '213'; On line 9When: Tuesday 08th 2022f February 2022 02:39:38 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'age' in 'field list'
+
+QUERY: INSERT INTO `library` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 2:39 pm',
+            `dest` = '213'; On line 9When: Tuesday 08th 2022f February 2022 02:39:39 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'age' in 'field list'
+
+QUERY: INSERT INTO `library` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 2:39 pm',
+            `dest` = '213'; On line 9When: Tuesday 08th 2022f February 2022 02:39:39 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'age' in 'field list'
+
+QUERY: INSERT INTO `library` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 2:39 pm',
+            `dest` = '213'; On line 9When: Tuesday 08th 2022f February 2022 02:39:40 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'age' in 'field list'
+
+QUERY: INSERT INTO `library` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 2:39 pm',
+            `dest` = '213'; On line 9When: Tuesday 08th 2022f February 2022 03:11:55 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'age' in 'field list'
+
+QUERY: INSERT INTO `library` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 2:39 pm',
+            `dest` = '213'; On line 9When: Tuesday 08th 2022f February 2022 03:11:55 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'age' in 'field list'
+
+QUERY: INSERT INTO `library` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 2:39 pm',
+            `dest` = '213'; On line 9When: Tuesday 08th 2022f February 2022 03:29:41 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'age' in 'field list'
+
+QUERY: INSERT INTO `comments` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 2:39 pm',
+            `dest` = '213'; On line 9When: Tuesday 08th 2022f February 2022 03:30:23 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'dest' in 'field list'
+
+QUERY: INSERT INTO `comments` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 3:30 pm',
+            `dest` = '123'; On line 9When: Tuesday 08th 2022f February 2022 03:30:29 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'dest' in 'field list'
+
+QUERY: INSERT INTO `comments` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 3:30 pm',
+            `dest` = '123'; On line 9When: Tuesday 08th 2022f February 2022 03:30:30 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'dest' in 'field list'
+
+QUERY: INSERT INTO `comments` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 3:30 pm',
+            `dest` = '123'; On line 9When: Tuesday 08th 2022f February 2022 03:30:30 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'dest' in 'field list'
+
+QUERY: INSERT INTO `comments` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 3:30 pm',
+            `dest` = '123'; On line 9When: Tuesday 08th 2022f February 2022 03:30:30 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'dest' in 'field list'
+
+QUERY: INSERT INTO `comments` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 3:30 pm',
+            `dest` = '123'; On line 9When: Tuesday 08th 2022f February 2022 07:19:26 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'dest' in 'field list'
+
+QUERY: INSERT INTO `comments` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 3:30 pm',
+            `dest` = '123'; On line 9When: Tuesday 08th 2022f February 2022 07:19:27 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'dest' in 'field list'
+
+QUERY: INSERT INTO `comments` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 3:30 pm',
+            `dest` = '123'; On line 9When: Tuesday 08th 2022f February 2022 07:19:41 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'dest' in 'field list'
+
+QUERY: INSERT INTO `comments` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 3:30 pm',
+            `dest` = '123'; On line 9When: Tuesday 08th 2022f February 2022 07:19:42 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'dest' in 'field list'
+
+QUERY: INSERT INTO `comments` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 7:19 pm',
+            `dest` = '123'; On line 9When: Tuesday 08th 2022f February 2022 07:19:45 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'dest' in 'field list'
+
+QUERY: INSERT INTO `comments` SET 
+            `age` = '18',
+            `comment`  = '',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 8, 2022, 7:19 pm',
+            `dest` = ''; On line 9When: Tuesday 08th 2022f February 2022 07:19:53 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'dest' in 'field list'
+
+QUERY: INSERT INTO `comments` SET 
+            `age` = '0',
+            `comment`  = '123',
+            `login` = '',
+            `email` = '',
+            `date` = '',
+            `dest` = '123'; On line 9When: Wednesday 09th 2022f February 2022 08:58:20 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'dest' in 'field list'
+
+QUERY: INSERT INTO `comments` SET 
+            `age` = '0',
+            `comment`  = '123',
+            `login` = '',
+            `email` = '',
+            `date` = '',
+            `dest` = '123'; On line 10When: Wednesday 09th 2022f February 2022 08:58:48 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'dest' in 'field list'
+
+QUERY: INSERT INTO `comments` SET 
+            `age` = '18',
+            `comment`  = '123',
+            `login` = 'TestBot',
+            `email` = 'tb@gmail.com',
+            `date` = 'February 9, 2022, 8:58 am',
+            `dest` = '123'; On line 8When: Wednesday 09th 2022f February 2022 08:59:26 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\sending_message.php; 
+Unknown column 'dest' in 'field list'
+
+QUERY: SELECT * FROM `comments` WHERE `time` < ; On line 3When: Tuesday 08th 2022f March 2022 10:04:35 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 21When: Friday 15th 2022f April 2022 05:59:49 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 21When: Friday 15th 2022f April 2022 06:02:02 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 21When: Friday 15th 2022f April 2022 06:02:06 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 21When: Friday 15th 2022f April 2022 06:02:12 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 21When: Friday 15th 2022f April 2022 06:02:29 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: SELECT * FROM `comments` WHERE `time` < ; On line 3When: Friday 15th 2022f April 2022 06:02:35 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 21When: Friday 15th 2022f April 2022 06:05:01 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 21When: Friday 15th 2022f April 2022 06:07:12 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 21When: Friday 15th 2022f April 2022 06:07:18 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 21When: Friday 15th 2022f April 2022 06:07:27 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 21When: Friday 15th 2022f April 2022 06:07:35 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 21When: Friday 15th 2022f April 2022 06:20:37 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 21When: Friday 15th 2022f April 2022 06:20:42 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 21When: Friday 15th 2022f April 2022 06:20:46 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 21When: Friday 15th 2022f April 2022 06:20:48 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 21When: Friday 15th 2022f April 2022 06:28:41 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
