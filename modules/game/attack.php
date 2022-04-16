@@ -1,19 +1,5 @@
 <?php
-    if(empty($hp_player) || empty($hp_bot)) {
-        $user_hp = q("SELECT * FROM `game` WHERE `user_id` = ".$_SESSION['user']['id']);
-        $user_hp_arr = $user_hp->fetch_assoc();
-        $hp_player = $user_hp_arr['c_hp'];
-        $hp_bot = $user_hp_arr['hp'];
-    }
     if (!empty($_POST['attack_user'])) {
-        $_SESSION["bot"] = 10;
-        $_SESSION["client"] = 10;
-        $game = q("
-        UPDATE `game` SET
-        `c_hp` = 10,
-        `hp` = 10
-         WHERE `user_id` = '" . (int)$_SESSION ['user']['id'] . "'
-        ");
         $user_attack = $_POST['attack_user'];
         $attack = rand(1, 4);
         $luck = rand(1, 3);

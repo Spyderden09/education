@@ -1,10 +1,4 @@
 <?php
-    if(empty($hp_player) || empty($hp_bot)) {
-        $user_hp = q("SELECT * FROM `game` WHERE `user_id` = ".$_SESSION['user']['id']);
-        $user_hp_arr = $user_hp->fetch_assoc();
-        $_SESSION['hp_player'] = $user_hp_arr['c_hp'];
-        $_SESSION['hp_bot'] = $user_hp_arr['hp'];
-    }
     if(isset($_SESSION['user'])){
         $res = q("
             SELECT *

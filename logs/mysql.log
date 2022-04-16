@@ -1721,3 +1721,24 @@ QUERY:
             ; On line 21When: Friday 15th 2022f April 2022 06:28:41 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
 
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Saturday 16th 2022f April 2022 09:30:09 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Saturday 16th 2022f April 2022 09:30:48 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Saturday 16th 2022f April 2022 09:31:01 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+

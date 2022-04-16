@@ -7,4 +7,3 @@ $game = q("
          WHERE `user_id` = '" . (int)$_SESSION ['user']['id'] . "'
 ");
 
-

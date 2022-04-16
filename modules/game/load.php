@@ -9,10 +9,7 @@ $game_data = q("
 if ($game_data->num_rows){
     $_SESSION["game_data"] = $game_data->fetch_assoc();
 }else{
-    $game_data_add = q("
-        INSERT INTO `game` SET 
-        `user_id` = '".$_SESSION['user'] ['id']."'
-    ");
+    echo "<script>myLoad()</script>";
 }
 
 
