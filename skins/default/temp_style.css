@@ -45,7 +45,7 @@ body{
 }
 .loader{
     margin-left: 550px;
-    display: none;
+    display: block;
 }
 .start-game-button{
     margin-left: 114px;
