@@ -65,7 +65,7 @@ body{
     color: #dbc21e;
 }
 .start-game{
-    display: block;
+    display: none;
     margin-left: 550px;
     margin-bottom: 30px;
 }

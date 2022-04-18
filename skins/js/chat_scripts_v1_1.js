@@ -62,7 +62,6 @@ function myLoad() {
     });
     setTimeout(hideShow,3000,'load_block');
     setTimeout(hideShow,3000,'main-content');
-    myBattle('attack_num');
     return false;
 }
 function myRestart() {

@@ -1742,3 +1742,10 @@ QUERY:
             ; On line 11When: Saturday 16th 2022f April 2022 09:31:01 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
 
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Sunday 17th 2022f April 2022 11:52:52 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
