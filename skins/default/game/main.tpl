@@ -39,7 +39,7 @@
     </div>
 </div>
 <div class="loader" id="load_block"><img src="images/loader.gif" width="400"> </div>
-<form action="" method="post" onsubmit="return startGame('start_block','load_block')">
+<form action="" method="post" onsubmit="return myStartGame('start_block','load_block')">
     <div class="start-game" id="start_block">
         <img id="start_image" src="images/battle-icon.jpg" width="400">
         <br>
