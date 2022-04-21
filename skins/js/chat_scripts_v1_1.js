@@ -63,7 +63,7 @@ function myLoad() {
     setTimeout(hideShow,3000,'load_block');
     setTimeout(hideShow,3000,'main-content');
 }
-function myStartGame(st_block, load_block){
+function myStartGame(){
     $.ajax({
         url: '/game/start',
         type: "POST",
@@ -74,17 +74,12 @@ function myStartGame(st_block, load_block){
         },
         error: function (x, t, m) {
             if (t === "timeout") {
-                setTimeout(myLoad, 15000);
+                setTimeout(myStartGame, 15000);
             } else {
                 alert('Возникли трудности')
             }
         }
     });
-    hideShow(st_block);
-    hideShow(st_block);
-    hideShow(load_block);
-    setTimeout(hideShow, 3000, 'load_block');
-    setTimeout(hideShow, 3000, 'main-content');
     return false;
 }
 function myRestart() {

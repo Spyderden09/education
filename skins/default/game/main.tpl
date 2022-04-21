@@ -1,3 +1,4 @@
+<script>myStartGame()</script>
 <div class="game-content" id="main-content">
     <div class="margin_block2">
         <form action="" method="post" onsubmit="return myBattle('attack_num')">
@@ -13,13 +14,13 @@
             if ($_SESSION['vis'] == "<h1>Ты проиграл</h1>"){
                 echo '<img width="150" src="/images/player1_dead.jfif"></div>';
             }else{
-                echo '<span class="hp">'. $user_hp_arr['hp'].'/10</span><br><img width="150" src="/images/player1.jfif"></div>';
+                echo '<span class="hp">'. $_SESSION['user_hp_arr']['hp'].'/10</span><br><img width="150" src="/images/player1.jfif"></div>';
             }
             echo '<div class="player2"><br>';
             if ($_SESSION['vis'] == "<h1>Ты победил</h1>"){
                 echo '<img width="150" src="/images/player2_dead.jfif"></div>';
             }else{
-                echo '<span class="hp">'.$user_hp_arr['c_hp'].'/10</span><br><img width="150" src="/images/player2.jfif"></div>';
+                echo '<span class="hp">'.$_SESSION['user_hp_arr']['c_hp'].'/10</span><br><img width="150" src="/images/player2.jfif"></div>';
             }
             ?>
             <br>
