@@ -60,8 +60,11 @@ function myLoad() {
             }
         }
     });
+    hideShow("load_block")
     setTimeout(hideShow,3000,'load_block');
+    hideShow("start_block")
     setTimeout(hideShow,3000,'main-content');
+    return false;
 }
 function myStartGame(){
     $.ajax({

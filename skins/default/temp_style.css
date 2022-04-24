@@ -40,6 +40,12 @@ body{
     margin-bottom: 0px;
     color: #c4eec4;
 }
+.display_hide{
+    display: none;
+}
+.display_show{
+    display: block;
+}
 .game-content{
     display: none;
 }
