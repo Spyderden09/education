@@ -46,11 +46,11 @@ body{
 .display_show{
     display: block;
 }
-.game-content{
-    display: none;
-}
 .loader{
     margin-left: 550px;
+    display: none;
+}
+.battle{
     display: none;
 }
 .start-game-button{
@@ -71,7 +71,6 @@ body{
     color: #dbc21e;
 }
 .start-game{
-    display: none;
     margin-left: 550px;
     margin-bottom: 30px;
 }
