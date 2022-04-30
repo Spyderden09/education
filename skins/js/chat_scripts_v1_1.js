@@ -42,8 +42,8 @@ function myBattle(attack) {
     return false;
 }
 
-
 function myLoad() {
+    console.log('1');
     $.ajax({
         url: '/game/load',
         type: "POST",
@@ -54,17 +54,23 @@ function myLoad() {
         },
         error: function (x, t, m) {
             if (t==="timeout") {
-                setTimeout(myLoad,15000);
+                 setTimeout(myLoad,15000);
             }else {
                 alert('Возникли трудности')
             }
         }
     });
+    console.log('2');
     hideShow("load_block")
+    console.log('3');
     setTimeout(hideShow,3000,'load_block');
+    console.log('4');
     hideShow("start_block")
+    console.log('5');
     setTimeout(hideShow,3000,'main-content');
+    console.log('6');
     return false;
+    console.log('7');
 }
 function myStartGame(){
     $.ajax({

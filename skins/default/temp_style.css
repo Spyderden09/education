@@ -57,7 +57,7 @@ body{
     margin-left: 114px;
     height: 32px;
     width: 172px;
-    padding: 5px 17px;
+    padding: 10px;
     background-color: #dbc21e;
     color: #d42222;
     font-weight: bold;
@@ -71,7 +71,7 @@ body{
     color: #dbc21e;
 }
 .start-game{
-    margin-left: 550px;
+     margin-left: 550px;
     margin-bottom: 30px;
 }
 .playground{

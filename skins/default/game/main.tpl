@@ -34,14 +34,12 @@
                 <input type="submit" name="submit" value="Сражаться">
      </div>
 </div>
-<form action="" method="post" onsubmit="return myLoad()">
     <div class="loader" id="load_block"><img src="images/loader.gif" width="400"> </div>
     <div class="<?=($is_started ? 'display_show' : 'display_hide')?>" id="start_block">
         <img id="start_image" src="images/battle-icon.jpg" width="400">
         <br>
-        <input id="start_button" type="submit" name="start-game" class="start-game-button" value="Начать игру">
+        <div class="start-game-button" onmousedown="myLoad()">Начать Игру</div>
     </div>
-</form>
 <?php
 $user_hp = q("SELECT * FROM `game` WHERE `user_id` = ".$_SESSION['user']['id']);
 if ($user_hp->num_rows) {
