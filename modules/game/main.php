@@ -1,11 +1,11 @@
 <?php
-$user_hp = q("SELECT * FROM `game` WHERE `user_id` = ".$_SESSION['user']['id']);
+$user_hp = q("SELECT * FROM `game` WHERE `user_id` = " . $_SESSION['user']['id']);
 if ($user_hp->num_rows) {
-    $_SESSION["user_data"] = $user_hp->fetch_assoc();
+    $_SESSION["user_hp_arr"] = $user_hp->fetch_assoc();
     $is_started = "display_hide";
-    echo "<script>myLoad()</script>";
-}else{
+} else {
     $is_started = "display_show";
+    $game_add = q("INSERT INTO `game` SET `user_id` = " . (int)$_SESSION['user']['id']);
 }
 if  (isset($_SESSION['user'])){
     if (!isset($_SESSION['vis'])){

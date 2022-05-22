@@ -6,6 +6,19 @@ function hideShow(id){
         st.style.display = 'block';
     }
 }
+function Load() {
+    hideShow("load_block")
+    setTimeout(hideShow,3000,'load_block');
+    setTimeout(Show,3000,'battle');
+}
+function Show(id){
+    st = document.getElementById(id);
+    st.style.display = 'block';
+}
+function Hide(id){
+    st = document.getElementById(id);
+    st.style.display = 'none';
+}
 function inputsValidation(login_id, pass_id, error_block_id1, error_block_id2, error_block_id3, error_block_id4, error_block_id5) {
     var login_text_length = document.getElementById(login_id).value.length;
     var pass_text_length = document.getElementById(pass_id).value.length;

@@ -1752,3 +1752,20 @@ You have an error in your SQL syntax; check the manual that corresponds to your 
 QUERY: SELECT * FROM `comments` WHERE `time` < ; On line 3When: Monday 18th 2022f April 2022 08:33:40 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\main.php; 
 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
 
+QUERY: INSERT INTO `game` SET `user_id` = (int)85; On line 49When: Saturday 14th 2022f May 2022 02:14:49 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\skins\default\game\main.tpl; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int)85' at line 1
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Saturday 14th 2022f May 2022 02:54:21 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Saturday 14th 2022f May 2022 02:54:35 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
