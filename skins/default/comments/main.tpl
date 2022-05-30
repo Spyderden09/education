@@ -18,10 +18,9 @@ if (isset($_SESSION['user'])  || isset($_COOKIE['aa'],$_COOKIE['pass'], $_COOKIE
             'login'       => mresALL($_SESSION['user']['login']),
             'email'       => mresALL($_SESSION['user']['email']),
             'date'        => mresALL($comment_date)
-
         );
         while($row = $res_sel->fetch_assoc()) {
-            echo '<div class="comment_div"><div class="comm_inf">
+            echo '<div class="comment_div" id="comment_block"><div class="comm_inf">
             <p class="login_comments">'. hscALL($row['login']);
             if (!empty($row["destination"])){
                 echo '<span class="destination_comments">→'.$row["destination"].'</span>';

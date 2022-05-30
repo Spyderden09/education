@@ -2,6 +2,7 @@
 function myAjax(comment, dest) {
     var comment_text = document.getElementById(comment).value
     var dest_text = document.getElementById(dest).value
+    getElementById('comment_block').innerHTML = '<div class="comm_inf"> <p class="login_comments">'+ (dest_length == '' ? ' ' : '<span class="destination_comments">→'+destination+'</span>')+'<span class="comment_date">'+$row["date"]+'</span></p></div><hr color="#1b2640" noshade  class="comment_hr">  \n' + '<div class="comm_inf">\n' + '<br>'
     $.ajax({
         url: '/comments/sending_message',
         type: "POST",
@@ -30,6 +31,7 @@ function myBattle(attack) {
         timeout: 10000,
         data: {attack_user: attack},
         success: function (atk) {
+            var hp = JSON.parse(atk);
         },
         error: function (x, t, m) {
             if (t==="timeout") {
@@ -39,6 +41,8 @@ function myBattle(attack) {
             }
         }
     });
+    getElementById('player_hp').innerHTML = hp.user;
+    getElementById('bot_hp').innerHTML = hp.bot;
     return false;
 }
 function myStartGame(){
@@ -79,9 +83,3 @@ function myRestart() {
     });
     return false;
 }
-
-/*
-window.onload = function () {
-    document.getElementById('test').onclick = myAjax('comment', 'dest');
-}
-*/

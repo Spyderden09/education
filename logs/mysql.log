@@ -1769,3 +1769,6 @@ QUERY:
             ; On line 11When: Saturday 14th 2022f May 2022 02:54:35 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
 
+QUERY: SELECT * FROM `comments` WHERE `time` < ; On line 3When: Sunday 22nd 2022f May 2022 01:01:52 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\main.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+

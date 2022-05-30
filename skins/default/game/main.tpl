@@ -13,13 +13,13 @@
             if ($_SESSION['vis'] == "<h1>Ты проиграл</h1>"){
                 echo '<img width="150" src="/images/player1_dead.jfif"></div>';
               }else{
-                echo '<span class="hp">'. $_SESSION['user_hp_arr']['hp'].'/10</span><br><img width="150" src="/images/player1.jfif"></div>';
+                echo '<span class="hp" id="player_hp">'. $_SESSION['user_hp_arr']['hp'].'/10</span><br><img width="150" src="/images/player1.jfif"></div>';
             }
             echo '<div class="player2"><br>';
             if ($_SESSION['vis'] == "<h1>Ты победил</h1>"){
                 echo '<img width="150" src="/images/player2_dead.jfif"></div>';
             }else{
-                echo '<span class="hp">'.$_SESSION['user_hp_arr']['c_hp'].'/10</span><br><img width="150" src="/images/player2.jfif"></div>';
+                echo '<span class="hp" id="bot_hp">'.$_SESSION['user_hp_arr']['c_hp'].'/10</span><br><img width="150" src="/images/player2.jfif"></div>';
             }
             ?>
             <br>
@@ -37,7 +37,7 @@
         <div class="<?=($is_started == 'display_show' ? 'display_show' : 'display_hide')?>" id="start_block">
             <img id="start_image" src="images/battle-icon.jpg" width="400">
             <br>
-            <div class="start-game-button" onmousedown="myLoad()">Начать Игру</div>
+            <div class="start-game-button" onmousedown="Load()">Начать Игру</div>
             <div onmousedown="myRestart()">Начать Заново</div>
         </div>
     </div>

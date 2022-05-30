@@ -4,22 +4,22 @@
         $attack = rand(1, 4);
         $luck = rand(1, 3);
         if ($luck == $user_attack) {
-            $current_hp = $_SESSION ['client'] - $attack;
+            $hp["user"] = $_SESSION ['client'] - $attack;
             $game = q("
                 UPDATE `game` SET
-                `hp` = '" . (int)$current_hp . "'
+                `hp` = '" . (int)$hp["user"] . "'
                 WHERE `user_id` = '" . (int)$_SESSION ['user']['id'] . "'++
             ");
-            $_SESSION ['client'] = $current_hp;
+            $_SESSION ['client'] = $hp["user"];
             $_SESSION['vis'] = "<h1>Ваc ударили и нанесли " . $attack . "ед. урона</h1>";
         } else {
-            $current_bot_hp = $_SESSION ['bot'] - $attack;
+            $hp["bot"] = $_SESSION ['bot'] - $attack;
             $game = q("
                 UPDATE `game` SET
-                `c_hp` = '" . (int)$current_bot_hp . "'
+                `c_hp` = '" . (int)$hp["bot"] . "'
                 WHERE `user_id` = '" . (int)$_SESSION ['user']['id'] . "'
             ");
-            $_SESSION ['bot'] = $current_bot_hp;
+            $_SESSION ['bot'] = $hp["bot"];
             $_SESSION['vis'] = "<h1>Вы ударили и нанесли " . $attack . "ед. урона</h1>";
         }
     } else {
@@ -51,4 +51,4 @@ if ($_SESSION ['client'] <= 0 || $_SESSION ['bot'] <= 0) {
             ");
     }
 }
-
+echo json_encode($hp);
