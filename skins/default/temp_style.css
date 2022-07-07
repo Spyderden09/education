@@ -35,6 +35,7 @@ body{
     margin-left: 10px;
 }
 .hp{
+    display: block;
     margin-left: 60px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -51,6 +52,26 @@ body{
 }
 .battle{
     display: none;
+}
+.restart-button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #dec20d;
+    width: 150px;
+    background-color: #0a4193;
+    border-radius: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.game-end{
+    display: none;
+    margin-left: 100px;
+}
+.restart-button:hover{
+    color: #0a9393;
+    background-color: #dec20d;
+    cursor: pointer;
 }
 .start-game-button{
     margin-left: 114px;

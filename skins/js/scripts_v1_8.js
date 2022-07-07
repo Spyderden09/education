@@ -6,10 +6,21 @@ function hideShow(id){
         st.style.display = 'block';
     }
 }
-function Load() {
-    hideShow("load_block")
-    setTimeout(hideShow,3000,'load_block');
-    setTimeout(Show,3000,'battle');
+function Lose(){
+    Show("player_dead")
+    Show("bot_alive")
+    Hide("player_alive")
+    Hide("bot_dead")
+    Hide("player_hp")
+    Hide("bot_hp")
+}
+function Win(){
+    Show("player_alive")
+    Show("bot_dead")
+    Hide("player_dead")
+    Hide("bot_alive")
+    Hide("bot_hp")
+    Hide("player_hp")
 }
 function Show(id){
     st = document.getElementById(id);

@@ -5,7 +5,6 @@ if ($user_hp->num_rows) {
     $is_started = "display_hide";
 } else {
     $is_started = "display_show";
-    $game_add = q("INSERT INTO `game` SET `user_id` = " . (int)$_SESSION['user']['id']);
 }
 if  (isset($_SESSION['user'])){
     if (!isset($_SESSION['vis'])){

@@ -1772,3 +1772,801 @@ You have an error in your SQL syntax; check the manual that corresponds to your 
 QUERY: SELECT * FROM `comments` WHERE `time` < ; On line 3When: Sunday 22nd 2022f May 2022 01:01:52 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\comments\main.php; 
 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
 
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 31st 2022f May 2022 06:11:56 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 31st 2022f May 2022 06:12:07 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 08th 2022f June 2022 01:38:34 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 08th 2022f June 2022 01:38:41 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 08th 2022f June 2022 01:40:02 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 08th 2022f June 2022 01:40:17 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 08th 2022f June 2022 01:40:31 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Thursday 09th 2022f June 2022 03:09:58 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Thursday 09th 2022f June 2022 03:10:34 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Saturday 11th 2022f June 2022 10:28:05 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Saturday 11th 2022f June 2022 10:28:10 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Saturday 11th 2022f June 2022 10:28:15 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Saturday 11th 2022f June 2022 10:28:53 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Saturday 11th 2022f June 2022 10:55:13 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Saturday 11th 2022f June 2022 10:55:25 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Sunday 12th 2022f June 2022 01:08:40 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Sunday 12th 2022f June 2022 01:09:03 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Sunday 12th 2022f June 2022 01:50:11 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Monday 13th 2022f June 2022 05:08:46 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 15When: Monday 13th 2022f June 2022 05:31:15 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 09:56:21 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 09:58:54 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 09:58:57 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 11:34:51 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 11:34:51 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 11:34:51 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 11:35:57 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 11:35:59 AM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 01:21:09 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 01:22:03 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 01:22:11 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 01:24:22 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 01:25:39 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 01:25:40 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 01:25:41 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 01:25:45 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 01:25:46 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 01:25:48 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 01:25:48 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 01:25:54 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 01:25:54 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 01:25:55 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 01:25:55 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 08:57:48 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 08:57:49 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 08:57:49 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 08:57:54 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 08:57:59 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 08:57:59 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 08:58:00 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 08:58:03 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 08:58:05 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 08:58:42 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 08:58:42 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 08:58:43 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 08:58:43 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 08:58:44 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Tuesday 14th 2022f June 2022 08:58:44 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:45:08 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:45:09 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:45:10 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:45:11 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:45:12 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:48:31 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:48:33 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:48:33 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:48:35 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:48:35 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:48:36 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:48:36 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:48:36 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:48:37 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:48:37 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:48:38 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:51:01 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:51:01 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:51:02 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 01:51:03 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:48:40 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:48:41 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:48:42 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:48:43 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:48:43 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:48:43 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:48:44 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:48:45 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:50:28 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:50:29 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:50:47 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:50:48 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:50:56 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:51:09 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:51:10 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:51:11 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:51:12 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:51:12 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:51:12 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:51:13 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:51:14 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:51:16 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:51:16 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:57:18 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:57:18 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:57:19 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:58:05 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '9'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 03:58:05 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 04:02:18 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 04:02:18 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 04:02:44 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '7'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 04:02:45 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 04:02:45 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 04:05:24 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '6'
+                WHERE `user_id` = '85'++
+            ; On line 11When: Wednesday 15th 2022f June 2022 04:06:10 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
+QUERY: 
+                UPDATE `game` SET
+                `hp` = '8'
+                WHERE `user_id` = '85'++
+            ; On line 12When: Wednesday 15th 2022f June 2022 04:40:01 PM; In function q; In file:G:\OpenServer\OpenServer\domains\education\modules\game\attack.php; 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+
