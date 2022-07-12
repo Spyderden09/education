@@ -2128,6 +2128,11 @@ a.button-3:link {
     transition: 0.3s;
     border: 1px solid rgb(0, 0, 0, .1);
 }
+.antibot_block{
+    margin-left: 550px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .big_news:hover{
     float:left;
     width:530px;
