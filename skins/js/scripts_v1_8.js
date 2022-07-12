@@ -30,6 +30,17 @@ function Hide(id){
     st = document.getElementById(id);
     st.style.display = 'none';
 }
+function Antibot(id, r_number){
+    var number = document.getElementById(id).value;
+    if (number == r_number){
+        Show("yes")
+        Hide("no")
+    }else {
+        Show("no")
+        Hide("yes")
+    }
+    return false;
+}
 function inputsValidation(login_id, pass_id, error_block_id1, error_block_id2, error_block_id3, error_block_id4, error_block_id5) {
     var login_text_length = document.getElementById(login_id).value.length;
     var pass_text_length = document.getElementById(pass_id).value.length;
